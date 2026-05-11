@@ -1,0 +1,1 @@
+Update @agents/entire-agent-amp/AGENT.md to reflect the changes with regards to retrieval, storage and parsing of amp thread transcript
