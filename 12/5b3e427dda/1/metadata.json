@@ -1,0 +1,106 @@
+{
+  "cli_version": "0.6.1",
+  "checkpoint_id": "125b3e427dda",
+  "session_id": "ses_1fd9ac4fdffeT1XABrimhLoWvR",
+  "strategy": "manual-commit",
+  "created_at": "2026-05-11T10:49:10.860685Z",
+  "branch": "feature/entire-agent-amp",
+  "checkpoints_count": 4,
+  "files_touched": [
+    "agents/entire-agent-amp/.gitignore",
+    "agents/entire-agent-amp/AGENT.md",
+    "agents/entire-agent-amp/README.md",
+    "agents/entire-agent-amp/go.mod",
+    "agents/entire-agent-amp/internal/amp/agent.go",
+    "agents/entire-agent-amp/internal/amp/command_runner.go",
+    "agents/entire-agent-amp/internal/amp/compact.go",
+    "agents/entire-agent-amp/internal/amp/compact_test.go",
+    "agents/entire-agent-amp/internal/amp/hooks.go",
+    "agents/entire-agent-amp/internal/amp/hooks_test.go",
+    "agents/entire-agent-amp/internal/amp/paths.go",
+    "agents/entire-agent-amp/internal/amp/transcript.go",
+    "agents/entire-agent-amp/internal/amp/transcript_test.go",
+    "agents/entire-agent-amp/internal/amp/types.go",
+    "agents/entire-agent-amp/internal/protocol/handlers_test.go",
+    "agents/entire-agent-amp/internal/protocol/protocol.go",
+    "agents/entire-agent-amp/internal/protocol/types.go",
+    "agents/entire-agent-amp/mise.toml",
+    "agents/entire-agent-amp/scripts/verify-amp.sh",
+    "e2e/agents/amp.go",
+    "e2e/amp_protocol_test.go"
+  ],
+  "agent": "OpenCode",
+  "model": "gpt-5.5",
+  "turn_id": "466e75b8295c",
+  "token_usage": {
+    "input_tokens": 1714648,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 15074816,
+    "output_tokens": 53938,
+    "api_call_count": 103
+  },
+  "session_metrics": {
+    "turn_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-05-11T10:49:10.768387Z",
+    "agent_lines": 2485,
+    "agent_removed": 0,
+    "human_added": 346,
+    "human_modified": 5,
+    "human_removed": 0,
+    "total_committed": 2836,
+    "total_lines_changed": 2836,
+    "agent_percentage": 87.62341325811002,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 55,
+      "user_lines_removed": 1,
+      "agent_lines_added": 2117,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "agents/entire-agent-amp/internal/amp/agent.go": 3,
+        "agents/entire-agent-amp/internal/amp/command_runner.go": 16,
+        "agents/entire-agent-amp/internal/amp/hooks.go": 36
+      },
+      "user_removed_per_file": {
+        "agents/entire-agent-amp/internal/amp/agent.go": 1
+      }
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 2203,
+      "user_lines_removed": 4,
+      "agent_lines_added": 2597,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "agents/entire-agent-amp/internal/amp/transcript.go": 1,
+        "agents/entire-agent-amp/internal/amp/types.go": 286,
+        "agents/entire-agent-pi/T-019e075c-c3b1-77b8-b9f6-af21ae5de84a.json": 1916
+      },
+      "user_removed_per_file": {
+        "agents/entire-agent-amp/internal/amp/transcript.go": 4
+      }
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 1916,
+      "user_lines_removed": 0,
+      "agent_lines_added": 2790,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "agents/entire-agent-pi/T-019e075c-c3b1-77b8-b9f6-af21ae5de84a.json": 1916
+      }
+    }
+  ]
+}

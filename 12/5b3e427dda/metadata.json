@@ -3,15 +3,47 @@
   "checkpoint_id": "125b3e427dda",
   "strategy": "manual-commit",
   "branch": "feature/entire-agent-amp",
-  "checkpoints_count": 1,
+  "checkpoints_count": 5,
   "files_touched": [
+    "agents/entire-agent-amp/.gitignore",
+    "agents/entire-agent-amp/AGENT.md",
+    "agents/entire-agent-amp/README.md",
+    "agents/entire-agent-amp/go.mod",
+    "agents/entire-agent-amp/internal/amp/agent.go",
+    "agents/entire-agent-amp/internal/amp/command_runner.go",
+    "agents/entire-agent-amp/internal/amp/compact.go",
+    "agents/entire-agent-amp/internal/amp/compact_test.go",
     "agents/entire-agent-amp/internal/amp/hooks.go",
-    "agents/entire-agent-amp/internal/amp/hooks_test.go"
+    "agents/entire-agent-amp/internal/amp/hooks_test.go",
+    "agents/entire-agent-amp/internal/amp/paths.go",
+    "agents/entire-agent-amp/internal/amp/transcript.go",
+    "agents/entire-agent-amp/internal/amp/transcript_test.go",
+    "agents/entire-agent-amp/internal/amp/types.go",
+    "agents/entire-agent-amp/internal/protocol/handlers_test.go",
+    "agents/entire-agent-amp/internal/protocol/protocol.go",
+    "agents/entire-agent-amp/internal/protocol/types.go",
+    "agents/entire-agent-amp/mise.toml",
+    "agents/entire-agent-amp/scripts/verify-amp.sh",
+    "e2e/agents/amp.go",
+    "e2e/amp_protocol_test.go"
   ],
   "sessions": [
     {
       "metadata": "/12/5b3e427dda/0/metadata.json",
       "prompt": "/12/5b3e427dda/0/prompt.txt"
+    },
+    {
+      "metadata": "/12/5b3e427dda/1/metadata.json",
+      "transcript": "/12/5b3e427dda/1/transcript.jsonl",
+      "content_hash": "/12/5b3e427dda/1/transcript_hash.txt",
+      "prompt": "/12/5b3e427dda/1/prompt.txt"
     }
-  ]
+  ],
+  "token_usage": {
+    "input_tokens": 1714648,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 15074816,
+    "output_tokens": 53938,
+    "api_call_count": 103
+  }
 }
