@@ -1,0 +1,5 @@
+Fix link issues in @agents/entire-agent-amp/
+
+---
+
+errors.As can be simplified using AsType[*exec.ExitError]
