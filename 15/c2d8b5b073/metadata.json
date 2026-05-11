@@ -1,0 +1,23 @@
+{
+  "cli_version": "0.6.1",
+  "checkpoint_id": "15c2d8b5b073",
+  "strategy": "manual-commit",
+  "branch": "feature/entire-agent-amp",
+  "checkpoints_count": 1,
+  "files_touched": null,
+  "sessions": [
+    {
+      "metadata": "/15/c2d8b5b073/0/metadata.json",
+      "transcript": "/15/c2d8b5b073/0/transcript.jsonl",
+      "content_hash": "/15/c2d8b5b073/0/transcript_hash.txt",
+      "prompt": "/15/c2d8b5b073/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 54,
+    "cache_creation_tokens": 42872,
+    "cache_read_tokens": 277185,
+    "output_tokens": 9002,
+    "api_call_count": 9
+  }
+}
