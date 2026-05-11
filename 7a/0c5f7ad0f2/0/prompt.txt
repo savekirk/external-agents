@@ -1,0 +1,1 @@
+Listen to `session.start` in amp plugin. Fire it when thread id is not empty. Use it for managing in-memory session tracking within the plugin. Instead of writing seen thread ids to file system, managed them within the plugin. When a new thread id is discovered, reset the tracking of the session by clearing seen ids and current id
