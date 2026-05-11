@@ -3,7 +3,7 @@
   "checkpoint_id": "15c2d8b5b073",
   "strategy": "manual-commit",
   "branch": "feature/entire-agent-amp",
-  "checkpoints_count": 3,
+  "checkpoints_count": 4,
   "files_touched": [
     "agents/entire-agent-amp/AGENT.md",
     "agents/entire-agent-amp/internal/amp/command_runner.go",
@@ -25,13 +25,19 @@
       "transcript": "/15/c2d8b5b073/1/transcript.jsonl",
       "content_hash": "/15/c2d8b5b073/1/transcript_hash.txt",
       "prompt": "/15/c2d8b5b073/1/prompt.txt"
+    },
+    {
+      "metadata": "/15/c2d8b5b073/2/metadata.json",
+      "transcript": "/15/c2d8b5b073/2/transcript.jsonl",
+      "content_hash": "/15/c2d8b5b073/2/transcript_hash.txt",
+      "prompt": "/15/c2d8b5b073/2/prompt.txt"
     }
   ],
   "token_usage": {
-    "input_tokens": 96,
-    "cache_creation_tokens": 97181,
-    "cache_read_tokens": 1578385,
-    "output_tokens": 18640,
-    "api_call_count": 41
+    "input_tokens": 105,
+    "cache_creation_tokens": 130791,
+    "cache_read_tokens": 1641810,
+    "output_tokens": 19982,
+    "api_call_count": 45
   }
 }

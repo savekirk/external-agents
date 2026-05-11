@@ -1,0 +1,55 @@
+{
+  "cli_version": "0.6.1",
+  "checkpoint_id": "15c2d8b5b073",
+  "session_id": "ses_1e7d1bdefffe7cDe1T7w0c9ktA",
+  "strategy": "manual-commit",
+  "created_at": "2026-05-11T18:03:56.506879Z",
+  "branch": "feature/entire-agent-amp",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "agents/entire-agent-amp/internal/amp/command_runner_test.go"
+  ],
+  "agent": "OpenCode",
+  "model": "claude-opus-4.7",
+  "turn_id": "8fc735173665",
+  "token_usage": {
+    "input_tokens": 9,
+    "cache_creation_tokens": 33610,
+    "cache_read_tokens": 63425,
+    "output_tokens": 1342,
+    "api_call_count": 4
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-05-11T18:03:56.496848Z",
+    "agent_lines": 8,
+    "agent_removed": 8,
+    "human_added": 26,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 34,
+    "total_lines_changed": 60,
+    "agent_percentage": 26.666666666666668,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 986,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".agents/skills/e2e-debug/SKILL.md": 116,
+        ".agents/skills/entire-external-agent/SKILL.md": 119,
+        ".agents/skills/entire-external-agent/implement.md": 131,
+        ".agents/skills/entire-external-agent/research.md": 360,
+        ".agents/skills/entire-external-agent/write-tests.md": 137,
+        ".amp/plugins/entire.ts": 118,
+        "agents/entire-agent-amp/todo.md": 5
+      }
+    }
+  ]
+}
