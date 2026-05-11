@@ -1,0 +1,61 @@
+{
+  "cli_version": "0.6.1",
+  "checkpoint_id": "125b3e427dda",
+  "session_id": "T-019e06cc-ff18-766e-85bb-3453f14960d8",
+  "strategy": "manual-commit",
+  "created_at": "2026-05-11T10:49:09.663102Z",
+  "branch": "feature/entire-agent-amp",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "agents/entire-agent-amp/internal/amp/hooks.go",
+    "agents/entire-agent-amp/internal/amp/hooks_test.go"
+  ],
+  "agent": "Amp",
+  "model": "",
+  "turn_id": "47ae572f316d",
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-05-11T10:49:09.556571Z",
+    "agent_lines": 26,
+    "agent_removed": 0,
+    "human_added": 794,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 820,
+    "total_lines_changed": 820,
+    "agent_percentage": 3.1707317073170733,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 2088,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".amp/plugins/entire.ts": 67,
+        "agents/entire-agent-amp/.gitignore": 2,
+        "agents/entire-agent-amp/AGENT.md": 98,
+        "agents/entire-agent-amp/README.md": 55,
+        "agents/entire-agent-amp/go.mod": 3,
+        "agents/entire-agent-amp/internal/amp/agent.go": 51,
+        "agents/entire-agent-amp/internal/amp/compact.go": 257,
+        "agents/entire-agent-amp/internal/amp/compact_test.go": 44,
+        "agents/entire-agent-amp/internal/amp/hooks.go": 238,
+        "agents/entire-agent-amp/internal/amp/hooks_test.go": 122,
+        "agents/entire-agent-amp/internal/amp/paths.go": 11,
+        "agents/entire-agent-amp/internal/amp/transcript.go": 278,
+        "agents/entire-agent-amp/internal/amp/transcript_test.go": 102,
+        "agents/entire-agent-amp/internal/protocol/handlers_test.go": 29,
+        "agents/entire-agent-amp/internal/protocol/protocol.go": 349,
+        "agents/entire-agent-amp/internal/protocol/types.go": 139,
+        "agents/entire-agent-amp/mise.toml": 10,
+        "agents/entire-agent-amp/scripts/verify-amp.sh": 118,
+        "e2e/agents/amp.go": 115
+      }
+    }
+  ]
+}

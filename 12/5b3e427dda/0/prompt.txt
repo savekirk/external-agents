@@ -1,0 +1,9 @@
+Review the plugin implementation for @agents/entire-agent-amp in @.amp/plugins/entire.ts
+
+---
+
+Does the plugin implementation conform to https://docs.entire.io/agents/external-agent-plugins.md
+
+---
+
+Fix the issues identified in the plugin

@@ -1,0 +1,17 @@
+{
+  "cli_version": "0.6.1",
+  "checkpoint_id": "125b3e427dda",
+  "strategy": "manual-commit",
+  "branch": "feature/entire-agent-amp",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "agents/entire-agent-amp/internal/amp/hooks.go",
+    "agents/entire-agent-amp/internal/amp/hooks_test.go"
+  ],
+  "sessions": [
+    {
+      "metadata": "/12/5b3e427dda/0/metadata.json",
+      "prompt": "/12/5b3e427dda/0/prompt.txt"
+    }
+  ]
+}
