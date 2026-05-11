@@ -1,0 +1,29 @@
+<system-reminder>Note: The user selected #67 from "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go". ```EventJSON```
+
+ This may or may not be relevant to the current task.</system-reminder>
+
+---
+
+Model name is not sent through the payload but rather derived from the exported thread transcript
+
+---
+
+<system-reminder>Note: The user selected #141 from "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/transcript.go". ```PrepareTranscript```
+
+ This may or may not be relevant to the current task.</system-reminder>
+
+---
+
+Continue if you have next steps, or stop and ask for clarification if you are unsure how to proceed.
+
+---
+
+Continue if you have next steps, or stop and ask for clarification if you are unsure how to proceed.
+
+---
+
+<system-reminder>Note: The user opened the file "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks_test.go". This may or may not be relevant to the current task.</system-reminder>
+
+---
+
+Exported transcripts should be stored using `sessionRef` path as done in @agents/entire-agent-amp/internal/amp/transcript.go.
