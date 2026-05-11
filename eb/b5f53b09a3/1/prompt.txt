@@ -1,0 +1,11 @@
+<system-reminder>Note: The user selected #141 from "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/transcript.go". ```PrepareTranscript```
+
+ This may or may not be relevant to the current task.</system-reminder>
+
+---
+
+Proceed with implementation
+
+---
+
+<system-reminder>Note: The user opened the file "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/cmd/entire-agent-amp/main.go". This may or may not be relevant to the current task.</system-reminder>
