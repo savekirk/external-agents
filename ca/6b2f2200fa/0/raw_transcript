@@ -1,0 +1,890 @@
+{
+  "v": 2432,
+  "id": "T-019e16a9-601d-7085-9436-5bdd55ef94b0",
+  "env": {
+    "initial": {
+      "tags": [
+        "model:claude-opus-4-7"
+      ]
+    }
+  },
+  "meta": {
+    "traces": [
+      {
+        "id": "tXdM8",
+        "name": "agent",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:26:09.567Z",
+        "startTime": "2026-05-11T11:24:05.500Z"
+      },
+      {
+        "id": "jVZ18",
+        "name": "plugin",
+        "label": "entire#agent.start",
+        "parent": "tXdM8",
+        "context": {},
+        "endTime": "2026-05-11T11:24:06.457Z",
+        "startTime": "2026-05-11T11:24:05.501Z",
+        "attributes": {
+          "plugin": {
+            "hook": "agent.start",
+            "pluginName": "entire"
+          }
+        }
+      },
+      {
+        "id": "mS7OL",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:24:09.617Z",
+        "startTime": "2026-05-11T11:24:06.458Z"
+      },
+      {
+        "id": "lbpyc",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 2
+        },
+        "endTime": "2026-05-11T11:24:09.628Z",
+        "startTime": "2026-05-11T11:24:09.616Z"
+      },
+      {
+        "id": "FuK1l",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:24:12.297Z",
+        "startTime": "2026-05-11T11:24:09.628Z"
+      },
+      {
+        "id": "tSmGE",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 4
+        },
+        "endTime": "2026-05-11T11:24:13.435Z",
+        "startTime": "2026-05-11T11:24:12.297Z"
+      },
+      {
+        "id": "9xWuq",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:24:16.019Z",
+        "startTime": "2026-05-11T11:24:13.438Z"
+      },
+      {
+        "id": "eNL1v",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 6
+        },
+        "endTime": "2026-05-11T11:24:16.601Z",
+        "startTime": "2026-05-11T11:24:16.018Z"
+      },
+      {
+        "id": "mG3JO",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:24:22.326Z",
+        "startTime": "2026-05-11T11:24:16.602Z"
+      },
+      {
+        "id": "Civf5",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 8
+        },
+        "endTime": "2026-05-11T11:24:22.327Z",
+        "startTime": "2026-05-11T11:24:22.326Z"
+      },
+      {
+        "id": "RjWzW",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:25:15.702Z",
+        "startTime": "2026-05-11T11:24:22.330Z"
+      },
+      {
+        "id": "sv0A2",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 10
+        },
+        "endTime": "2026-05-11T11:25:15.712Z",
+        "startTime": "2026-05-11T11:25:15.701Z"
+      },
+      {
+        "id": "reUtZ",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:25:52.018Z",
+        "startTime": "2026-05-11T11:25:15.712Z"
+      },
+      {
+        "id": "K2pXL",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 12
+        },
+        "endTime": "2026-05-11T11:25:52.021Z",
+        "startTime": "2026-05-11T11:25:52.018Z"
+      },
+      {
+        "id": "b6IOR",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:25:57.090Z",
+        "startTime": "2026-05-11T11:25:52.022Z"
+      },
+      {
+        "id": "0bvhL",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 14
+        },
+        "endTime": "2026-05-11T11:25:57.991Z",
+        "startTime": "2026-05-11T11:25:57.090Z"
+      },
+      {
+        "id": "orzV1",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:26:00.911Z",
+        "startTime": "2026-05-11T11:25:57.991Z"
+      },
+      {
+        "id": "Z0ZN4",
+        "name": "tools",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 16
+        },
+        "endTime": "2026-05-11T11:26:02.051Z",
+        "startTime": "2026-05-11T11:26:00.910Z"
+      },
+      {
+        "id": "ps7tl",
+        "name": "inference",
+        "parent": "tXdM8",
+        "context": {
+          "messageId": 0
+        },
+        "endTime": "2026-05-11T11:26:09.568Z",
+        "startTime": "2026-05-11T11:26:02.051Z"
+      },
+      {
+        "id": "nlZmR",
+        "name": "plugin",
+        "label": "entire#agent.end",
+        "parent": "tXdM8",
+        "context": {},
+        "endTime": "2026-05-11T11:26:09.784Z",
+        "startTime": "2026-05-11T11:26:09.567Z",
+        "attributes": {
+          "plugin": {
+            "hook": "agent.end",
+            "pluginName": "entire"
+          }
+        }
+      }
+    ],
+    "deleted": false,
+    "createdOnServer": false,
+    "lastUserMessageAt": "2026-05-11T11:24:05.496Z",
+    "workspaceID": null,
+    "projectID": null,
+    "visibility": "private",
+    "sharedGroupIDs": [],
+    "agentMode": "smart",
+    "usesDtw": false
+  },
+  "title": "In-memory session tracking for amp plugin",
+  "created": 1778496660478,
+  "messages": [
+    {
+      "meta": {
+        "sentAt": 1778498645496
+      },
+      "role": "user",
+      "content": [
+        {
+          "text": "Listen to `session.start` in amp plugin. Fire it when thread id is not empty. Use it for managing in-memory session tracking within the plugin. Instead of writing seen thread ids to file system, managed them within the plugin. When a new thread id is discovered, reset the tracking of the session by clearing seen ids and current id ",
+          "type": "text"
+        }
+      ],
+      "agentMode": "smart",
+      "messageId": 0,
+      "userState": {
+        "activeEditor": "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go",
+        "cursorLocation": {
+          "line": 22,
+          "column": 28
+        },
+        "currentlyVisibleFiles": [
+          "file:///Users/savekirk/dev/ai/entire/external-agents/.opencode/plugins/entire.ts",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-pi/internal/pi/compact.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/README.md",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/protocol/protocol.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/agent.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/transcript.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-pi/internal/pi/transcript.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/command_runner.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/protocol/types.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/paths.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/cmd/entire-agent-amp/main.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/types.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/.claude/skills/entire-external-agent/SKILL.md",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/todo.md",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/compact.go",
+          "file:///Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts"
+        ]
+      }
+    },
+    {
+      "role": "info",
+      "content": [
+        {
+          "text": "You MUST call the skill tool to load: building-plugins, entire-external-agent. Do this immediately before responding.",
+          "type": "text"
+        }
+      ],
+      "messageId": 1
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:24:09.616Z",
+        "inputTokens": 6,
+        "outputTokens": 239,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 21437,
+        "cacheReadInputTokens": 16368,
+        "cacheCreationInputTokens": 5063
+      },
+      "content": [
+        {
+          "type": "thinking",
+          "provider": "anthropic",
+          "thinking": " I need to load the skills and update the amp plugin so it responds to the session.start event.",
+          "finalTime": 1778498648938,
+          "signature": "EpkCClsIDRACGAIqQFSTlskTZTw4PqrXR+fosVPstxOFxuzFe1Ds9YtxAw6A9+RgUbSvkTMlwKM0P6ODLy1kKeBDdVkjKzugFt61cfwyD2NsYXVkZS1vcHVzLTQtNzgAEgyZO4rjMR90fUUMdEYaDPF3byIJT3L5neki4iIwXbJoW7DlUhnkWndnCGByJcJ9ES98meJazFWtmBuP+u6R+pN1jjp3AArYeAkZOihiKmzdJ0zGco1tVYWKWKCNNmrpXOdvpPA8n0F+m1HxKP7rDzehiIZOxFS395Xqh7Id9J/h6kDVL4cZ4bSGiY/7m98v0woA+RaVlboNH6h25phxkCZNnWAycYVy/xaklBKWPYtBpcIiNMsAbvHTNiIYAQ==",
+          "startTime": 1778498648036,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_01Lf59DU8vbjUFxgPzs9PgKj",
+          "name": "skill",
+          "type": "tool_use",
+          "input": {
+            "name": "building-plugins"
+          },
+          "complete": true,
+          "finalTime": 1778498648959,
+          "startTime": 1778498648941,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_011S4XXMAzgyddPEdnHYN3Kc",
+          "name": "skill",
+          "type": "tool_use",
+          "input": {
+            "name": "entire-external-agent"
+          },
+          "complete": true,
+          "finalTime": 1778498649322,
+          "startTime": 1778498649081,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_01YaPYpHgYy4eMhAsSTCB8Af",
+          "name": "Read",
+          "type": "tool_use",
+          "input": {
+            "path": "/Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts"
+          },
+          "complete": true,
+          "finalTime": 1778498649615,
+          "startTime": 1778498649339,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 2
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": {
+              "content": [
+                {
+                  "text": "<loaded_skill name=\"building-plugins\">\n# building-plugins Skill\n\n# Building Plugins\n\nAmp supports extension through plugins written in TypeScript.\n\nThe manual shows the most recent version of the Plugin API and examples at: https://ampcode.com/manual/plugin-api\n\nThe amp plugins subcommand allows you to exercise plugin code.\n\nThe amp plugins show-docs commands tells you the exact plugin API supported by\nthis version of Amp.\n\nPlugins can be reloaded at runtime by the user through the command palette.\n\n## Writing a new plugin\n\n1. Determine the plugin location\n2. Get the plugin API understood by this version of amp with `amp plugins show-docs`\n3. Write the plugin as a single typescript file (e.g ~/.config/amp/plugins/my-plugin.ts)\n4. Ask the user to reload and test\n\n## Plugin Locations\n\nPlugins are loaded from:\n- `.amp/plugins/` in the workspace (project-specific)\n- `~/.config/.amp/plugins/` globally (user-wide)\n\nDefault to writing plugins user-wide.\n\nIf the project already has a plugins, ask the user whether\nthey'd like their plugin to be a project-specific or a user-wide plugin.\n\n\nBase directory for this skill: builtin:///skills\nRelative paths in this skill (e.g., scripts/, reference/) are relative to this base directory.\n</loaded_skill>",
+                  "type": "text"
+                }
+              ]
+            },
+            "status": "done"
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_01Lf59DU8vbjUFxgPzs9PgKj"
+        },
+        {
+          "run": {
+            "result": {
+              "content": [
+                {
+                  "text": "<loaded_skill name=\"entire-external-agent\">\n# entire-external-agent Skill\n\n\n## Plan Mode Override\n\nIf plan mode is active when this skill is invoked, call ExitPlanMode immediately\nbefore doing anything else. This skill has its own multi-phase procedure\n(Research → Write-Tests → Implement) that IS the plan. Do not wrap it in a\nseparate planning workflow — execute the phases directly.\n\n# External Agent Binary — Full Pipeline\n\nBuild a standalone external agent binary that implements the Entire CLI external agent protocol.\n\nThe current test split is:\n\n1. **Protocol compliance** lives in `external-agents-tests`.\n2. **Lifecycle integration** lives in this repo's `e2e/` harness.\n3. **Unit tests** live in each agent module.\n\nDo not add new generic protocol tests under this repo's `e2e/` directory.\n\n## Parameters\n\nCollect these before starting if the user did not provide them:\n\n| Parameter | Description | Default |\n|-----------|-------------|---------|\n| `AGENT_NAME` | Human-readable name (for example, `Windsurf`) | User-provided |\n| `AGENT_SLUG` | Binary suffix for `entire-agent-<slug>` | Kebab-case of `AGENT_NAME` |\n| `LANGUAGE` | Implementation language | `Go` |\n| `PROJECT_DIR` | Agent directory to create or edit | `./agents/entire-agent-<slug>` |\n| `ENTIRE_BIN` | Path to the Entire CLI binary for lifecycle testing | `entire` from `PATH` or `E2E_ENTIRE_BIN` |\n\n## Phase Selection\n\n- `/entire-external-agent research` runs only Phase 1.\n- `/entire-external-agent write-tests` runs only Phase 2.\n- `/entire-external-agent implement` runs only Phase 3.\n- `/entire-external-agent` runs all three phases in order.\n\nIf a single phase is requested, still collect the shared parameters first.\n\n## Protocol Spec\n\nUse the protocol specification at:\n`https://github.com/entireio/cli/blob/main/docs/architecture/external-agent-protocol.md`\n\nIf the user gives a different spec location explicitly, use that instead.\n\n## Core Rule: Black-Box-First TDD\n\n1. **Protocol compliance is the contract.** The binary must pass the shared `external-agents-tests` suite.\n2. **Lifecycle tests prove real integration.** The repo-local `e2e/` harness covers the Entire + real-agent workflow and stays separate from generic protocol checks.\n3. **Unit tests are written last.** After protocol and lifecycle behavior are working, add unit tests to lock down parsing, hooks, and file handling.\n4. **Watch failures before fixing them.** Run the failing test first so you know what behavior the code must satisfy.\n5. **Keep the fix scoped.** Implement only the behavior needed for the current failure, then rerun.\n\n## Pipeline\n\n### Phase 1: Research\n\nDiscover the target agent's hook mechanism, transcript format, session layout, CLI entrypoints, and lifecycle prerequisites. Produce `<PROJECT_DIR>/AGENT.md` with the protocol mapping and any real-CLI requirements needed for lifecycle tests.\n\nUse `.claude/skills/entire-external-agent/research.md`.\n\nExpected output:\n- `<PROJECT_DIR>/AGENT.md`\n\n### Phase 2: Write Tests\n\nScaffold the binary and the test surfaces you will need:\n\n- agent module structure under `<PROJECT_DIR>`\n- protocol compliance expectations compatible with `external-agents-tests`\n- lifecycle adapter wiring in this repo's `e2e/` harness\n- optional compliance fixtures if the agent benefits from stronger black-box detect or transcript assertions\n\nUse `.claude/skills/entire-external-agent/write-tests.md`.\n\nExpected output:\n- compiling binary scaffold\n- any needed lifecycle adapter files under `e2e/agents/`\n- optional fixture file paths documented in `<PROJECT_DIR>/AGENT.md` or `README.md`\n\n### Phase 3: Implement\n\nImplement until:\n\n- the binary passes protocol compliance\n- lifecycle tests pass when the required CLIs are available\n- unit tests cover the important internal behaviors\n\nUse `.claude/skills/entire-external-agent/implement.md`.\n\nExpected output:\n- fully working binary\n- passing unit tests\n- passing protocol compliance\n- passing lifecycle integration where dependencies are available\n\n## Final Summary\n\nAt the end, summarize:\n\n- agent name and binary name\n- implementation language\n- declared capabilities\n- protocol compliance status\n- lifecycle test status\n- unit test coverage\n- installation instructions\n- any remaining gaps\n\n\nBase directory for this skill: file:///Users/savekirk/dev/ai/entire/external-agents/.claude/skills/entire-external-agent\nRelative paths in this skill (e.g., scripts/, reference/) are relative to this base directory.\n\n<skill_files>\n<file>/Users/savekirk/dev/ai/entire/external-agents/.claude/skills/entire-external-agent/implement.md</file>\n<file>/Users/savekirk/dev/ai/entire/external-agents/.claude/skills/entire-external-agent/research.md</file>\n<file>/Users/savekirk/dev/ai/entire/external-agents/.claude/skills/entire-external-agent/write-tests.md</file>\n</skill_files>\n</loaded_skill>",
+                  "type": "text"
+                }
+              ]
+            },
+            "status": "done"
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_011S4XXMAzgyddPEdnHYN3Kc"
+        },
+        {
+          "run": {
+            "result": {
+              "content": "1: import type { AgentEndEvent, AgentStartEvent, PluginAPI, ThreadMessage } from \"@ampcode/plugin\";\n2: import { execFile } from \"node:child_process\";\n3: \n4: // entire-agent-amp: project-local Entire integration for Amp.\n5: export default function (amp: PluginAPI) {\n6:   const seenThreads = new Set<string>();\n7: \n8:   function fireHook(hookName: string, data: Record<string, unknown>): Promise<void> {\n9:     return new Promise((resolve) => {\n10:       let body: string;\n11:       try {\n12:         body = JSON.stringify(data);\n13:       } catch (err) {\n14:         amp.logger.log(\"entire hook stringify failed\", hookName, err);\n15:         resolve();\n16:         return;\n17:       }\n18: \n19:       // NOTE: we await this from request handlers (agent.start/agent.end) on\n20:       // purpose — Entire's transcript ordering depends on hooks completing in\n21:       // sequence. Do not convert to fire-and-forget.\n22:       const child = execFile(\n23:         \"entire\",\n24:         [\"hooks\", \"amp\", hookName],\n25:         { timeout: 10_000, windowsHide: true, maxBuffer: Infinity },\n26:         (err, _stdout, stderr) => {\n27:           if (err) {\n28:             amp.logger.log(\"entire hook failed\", hookName, err.message, stderr);\n29:           }\n30:           resolve();\n31:         },\n32:       );\n33:       child.stdin?.end(body);\n34:     });\n35:   }\n36: \n37:   function modifiedFiles(messages: ThreadMessage[]): string[] {\n38:     const files = new Set<string>();\n39:     for (const item of amp.helpers.toolCallsInMessages(messages)) {\n40:       for (const event of [item.call, item.result]) {\n41:         const modified = amp.helpers.filesModifiedByToolCall(event);\n42:         if (!modified) continue;\n43:         for (const file of modified) files.add(amp.helpers.filePathFromURI(file));\n44:       }\n45:     }\n46:     return Array.from(files).sort();\n47:   }\n48: \n49:   amp.on(\"agent.start\", async (event: AgentStartEvent): Promise<void> => {\n50:     if (!seenThreads.has(event.thread.id)) {\n51:       seenThreads.add(event.thread.id);\n52:       await fireHook(\"session.start\", {\n53:         type: \"session.start\",\n54:         cwd: process.cwd(),\n55:         thread_id: event.thread.id,\n56:       });\n57:     }\n58: \n59:     await fireHook(\"agent.start\", {\n60:       type: \"agent.start\",\n61:       cwd: process.cwd(),\n62:       thread_id: event.thread.id,\n63:       message_id: String(event.id),\n64:       message: event.message,\n65:     });\n66:   });\n67: \n68:   amp.on(\"agent.end\", async (event: AgentEndEvent): Promise<void> => {\n69:     await fireHook(\"agent.end\", {\n70:       type: \"agent.end\",\n71:       cwd: process.cwd(),\n72:       thread_id: event.thread.id,\n73:       message_id: String(event.id),\n74:       message: event.message,\n75:       status: event.status,\n76:       messages: event.messages,\n77:       modified_files: modifiedFiles(event.messages),\n78:     });\n79:   });\n80: }",
+              "absolutePath": "/Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts"
+            },
+            "status": "done",
+            "progress": {},
+            "trackFiles": [
+              "file:///Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts"
+            ]
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_01YaPYpHgYy4eMhAsSTCB8Af"
+        }
+      ],
+      "messageId": 3
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:24:12.297Z",
+        "inputTokens": 6,
+        "outputTokens": 124,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 24961,
+        "cacheReadInputTokens": 16368,
+        "cacheCreationInputTokens": 8587
+      },
+      "content": [
+        {
+          "type": "thinking",
+          "provider": "anthropic",
+          "thinking": " I need to look up the plugin API documentation to understand what the session.start event structure looks like.",
+          "finalTime": 1778498652229,
+          "signature": "EokCClsIDRACGAIqQIZNFYszUn4dlPrQolvn+TJ2CCCsuuco0QmVfld1LqFHcqipvRIsf3GaVsJWR2XYIQ/PdK0RbkxKpWBISUivPOsyD2NsYXVkZS1vcHVzLTQtNzgAEgwxxewwNaYMs/aG9uAaDBbfTncKiJQ5aY1Z0CIw+bQF1cNYE+MVWZ6DNIX6rM5kXlbluNdn5ts0Cg5RenPmK/ObDyOEmkn6I0bRkz8hKly03uQKaL8oG2cEJT3wTDWn3z73pt3iwvojsk5Rp6yK3fwmnFJpFxVDVQTq9SmneyYXKuq92hMhbiY98XBXbZ73kbc/m1RVOSBvfZqXigBe94oe5oflwc/YI7Fd9xgB",
+          "startTime": 1778498651343,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_01QxCLJbC5NcdbnHVc14Acu9",
+          "name": "Bash",
+          "type": "tool_use",
+          "input": {
+            "cmd": "amp plugins show-docs 2>&1 | head -300"
+          },
+          "complete": true,
+          "finalTime": 1778498652296,
+          "startTime": 1778498652230,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 4
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": {
+              "output": "# Amp Plugin API\n\nAmp plugins are TypeScript files that extend and customize [Amp](https://ampcode.com).\n\nPlugins can:\n\n- **Handle events** — `amp.on(...)` for tool calls, tool results, and agent lifecycle events\n- **Add tools** — `amp.registerTool(...)` for custom tools the agent can call\n- **Add commands** — `amp.registerCommand(...)` for command palette actions\n- **Show UI** — `ctx.ui.notify(...)`, `ctx.ui.confirm(...)`, `ctx.ui.input(...)`, and `ctx.ui.select(...)`\n- **Classify with AI** — `amp.ai.ask(...)` for yes/no decisions with confidence and reasoning\n\n## Locations\n\nAmp loads plugins from three locations:\n\n- **Project plugins** — `.amp/plugins/*.ts`\n- **System plugins** — `~/.config/amp/plugins/*.ts`\n- **Global plugins** — configured in workspace settings (limited experimental release)\n\n## Minimal Plugin\n\n```ts\nimport type { PluginAPI } from '@ampcode/plugin'\n\nexport default function (amp: PluginAPI) {\n\tamp.logger.log('Plugin initialized')\n\n\tamp.on('session.start', async (event, ctx) => {\n\t\tawait ctx.ui.notify(`Thread ${event.thread.id} started.`)\n\t})\n}\n```\n\nCode in the exported function runs when the plugin loads. Use `session.start` only for work that should run when Amp starts a specific thread session.\n\nAfter changing a plugin, open the command palette and run `plugins: reload`.\n\n## Documentation\n\n- Plugin guide and worked examples: <https://ampcode.com/manual#plugins>\n- Full `@ampcode/plugin` type reference and a complete kitchen-sink example: <https://ampcode.com/manual/plugin-api>\n\nPlugins execute code, so only use plugins from people and workspaces you trust.\n\n## Acknowledgment\n\nAmp's plugin API is inspired by [pi's extension API](https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/extensions.md), created by Mario Zechner.\ndeclare module '@ampcode/plugin' {\n\t/**\n\t * # Amp Plugin API\n\t *\n\t * Plugins are JavaScript/TypeScript programs that extend & customize Amp.\n\t * They are long-lived processes that may run for multiple threads concurrently.\n\t *\n\t * Plugins live in `.amp/plugins/` (project) or `~/.config/amp/plugins/` (system) and are executed using Bun.\n\t *\n\t * A plugin exports a default function that receives a {@link PluginAPI} instance. For example:\n\t *\n\t * ```ts\n\t * import type { PluginAPI } from '@ampcode/plugin'\n\t *\n\t * export default function (amp: PluginAPI) {\n\t *   amp.logger.log('Plugin initialized')\n\t * }\n\t * ```\n\t */\n\n\t/**\n\t * The plugin API object passed to the plugin's default export function.\n\t */\n\texport interface PluginAPI {\n\t\t/** Logger scoped to this plugin */\n\t\tlogger: PluginLogger\n\n\t\t/** System capabilities and environment information */\n\t\tsystem: PluginSystem\n\n\t\t/** Observable configuration that streams changes */\n\t\tconfiguration: PluginConfiguration<Record<string, unknown>>\n\n\t\t/**\n\t\t * Execute shell commands using Bun's shell.\n\t\t * Unlike `ctx.$` in event handlers, this is not tied to a specific hook invocation.\n\t\t */\n\t\t$: ShellFunction\n\n\t\t/**\n\t\t * Helper utilities for interpreting tool events.\n\t\t */\n\t\thelpers: {\n\t\t\tshellCommandFromToolCall: ShellCommandFromToolCall\n\t\t\ttoolCallsInMessages: ToolCallsInMessages\n\t\t\tfilesModifiedByToolCall: FilesModifiedByToolCall\n\t\t\tfilePathFromURI: FilePathFromURI\n\t\t\tisPluginUINotAvailableError: IsPluginUINotAvailableError\n\t\t}\n\n\t\t/**\n\t\t * Register a handler for plugin events.\n\t\t * For request events (e.g., tool.call), the handler must return a result.\n\t\t * For fire-and-forget events, the handler returns void.\n\t\t *\n\t\t * If multiple plugins listen on the same event, the order in which each plugin's event handler is executed is not defined.\n\t\t */\n\t\ton<E extends keyof PluginEventMap>(\n\t\t\tevent: E,\n\t\t\thandler: (event: PluginEventMap[E], ctx: PluginEventContext<E>) => PluginHandlerResult<E>,\n\t\t): Subscription\n\n\t\t/**\n\t\t * Register a command that appears in Amp's command palette.\n\t\t * When the user invokes the command, the handler is called.\n\t\t *\n\t\t * @param id - Stable identifier for the command (e.g., \"hello-world\").\n\t\t * @param options - Configuration for the command including title, category, and description.\n\t\t * @param handler - The function to execute when the command is invoked.\n\t\t *\n\t\t * @example\n\t\t * ```ts\n\t\t * amp.registerCommand('hello-world', { title: 'greet', category: 'hello', description: 'Say hello' }, async (ctx) => {\n\t\t *   await ctx.ui.notify('Hello, world!')\n\t\t * })\n\t\t * ```\n\t\t */\n\t\tregisterCommand(\n\t\t\tid: string,\n\t\t\toptions: PluginCommandOptions,\n\t\t\thandler: (ctx: PluginCommandContext) => void | Promise<void>,\n\t\t): Subscription\n\n\t\t/**\n\t\t * Register a tool that the agent can call.\n\t\t * Plugin tools appear alongside built-in tools and can be invoked by the LLM during conversations.\n\t\t *\n\t\t * @param definition - The tool definition including name, description, schema, and execute handler.\n\t\t *\n\t\t * @example\n\t\t * ```ts\n\t\t * amp.registerTool({\n\t\t *   name: 'hello',\n\t\t *   description: 'Greet someone by name',\n\t\t *   inputSchema: {\n\t\t *     type: 'object',\n\t\t *     properties: { name: { type: 'string', description: 'Name to greet' } },\n\t\t *     required: ['name'],\n\t\t *   },\n\t\t *   async execute(input) {\n\t\t *     return `Hello, ${input.name}!`\n\t\t *   },\n\t\t * })\n\t\t * ```\n\t\t */\n\t\tregisterTool(definition: PluginToolDefinition): Subscription\n\n\t\t/** AI helpers */\n\t\tai: PluginAI\n\n\t\t/**\n\t\t * Experimental plugin APIs that are not stable and may change or be removed.\n\t\t *\n\t\t * Agents should only build on these APIs when the user explicitly approves the\n\t\t * use of experimental Amp plugin APIs.\n\t\t */\n\t\texperimental?: ExperimentalPluginAPI\n\t}\n\n\t/**\n\t * APIs under `PluginAPI.experimental` are not stable and may change or be removed.\n\t */\n\texport interface ExperimentalPluginAPI {\n\t\t/**\n\t\t * Create a status item shown near the prompt editor or status bar in the Amp client.\n\t\t *\n\t\t * If no initial value is provided, the item is hidden until its first update.\n\t\t */\n\t\tcreateStatusItem(initial?: StatusItemValue): StatusItem\n\n\t\t/**\n\t\t * Observable that emits the currently active thread (the one the user is focused on\n\t\t * in the UI), or `null` when no thread is active.\n\t\t *\n\t\t * Use this to determine whether the thread that triggered an event is the one the user\n\t\t * is currently looking at, or is running in the background. For example, in a\n\t\t * `tool.call` handler, compare `event.thread.id` to\n\t\t * `amp.experimental.activeThread.current` to decide whether to surface a UI prompt\n\t\t * (active) or take a non-interactive default (background).\n\t\t */\n\t\tactiveThread: Observable<{ id: ThreadID } | null> & {\n\t\t\treadonly current: { id: ThreadID } | null\n\t\t}\n\t}\n\n\t/**\n\t * A plugin status item shown in supported Amp clients.\n\t */\n\texport interface StatusItem extends Subscription {\n\t\t/** Update the status item content. */\n\t\tupdate(value: StatusItemValue): void\n\t}\n\n\texport interface StatusItemValue {\n\t\t/** Text to show. */\n\t\ttext: string\n\n\t\t/** URL to open when clicked, if any. */\n\t\turl?: string\n\t}\n\n\t/**\n\t * Result from an AI ask operation.\n\t */\n\texport interface PluginAIAskResult {\n\t\t/** The classification result: 'yes', 'no', or 'uncertain' */\n\t\tresult: 'yes' | 'no' | 'uncertain'\n\n\t\t/** Probability (0-1) that the answer is yes */\n\t\tprobability: number\n\n\t\t/** Explanation of why the AI gave this answer */\n\t\treason: string\n\t}\n\n\t/**\n\t * AI capabilities provided to plugins.\n\t */\n\texport interface PluginAI {\n\t\t/**\n\t\t * Ask an AI model a yes/no question and get a confidence-based response with reasoning.\n\t\t * @param question - The yes/no question to ask\n\t\t * @returns Object with result, probability, and reason\n\t\t */\n\t\task(question: string): Promise<PluginAIAskResult>\n\t}\n\n\t/**\n\t * Observer interface for subscribing to configuration changes.\n\t */\n\texport interface PluginConfigurationObserver<T> {\n\t\tnext?(value: T): void\n\n\t\terror?(error: unknown): void\n\n\t\tcomplete?(): void\n\t}\n\n\t/**\n\t * Subscription that can be unsubscribed to release resources.\n\t */\n\texport interface Subscription {\n\t\tunsubscribe(): void\n\t}\n\n\t/**\n\t * Target for configuration updates.\n\t */\n\texport type PluginConfigurationTarget = 'workspace' | 'global'\n\n\t/**\n\t * Minimal Observable interface used by plugin APIs that stream values over time.\n\t *\n\t * Subscribers receive subsequent values until they unsubscribe.\n\t */\n\texport interface Observable<T> {\n\t\t/**\n\t\t * Subscribe to values emitted by this observable.\n\t\t */\n\t\tsubscribe(observer: PluginConfigurationObserver<T>): Subscription\n\t\tsubscribe(onNext: (value: T) => void): Subscription\n\t}\n\n\t/**\n\t * Observable-like interface for Amp configuration.\n\t * Provides a limited subset of Observable functionality for plugins.\n\t */\n\texport interface PluginConfiguration<T> extends Observable<T> {\n\t\t/**\n\t\t * Pipe operators for transforming the configuration observable.\n\t\t */\n\t\tpipe<Out>(op: (input: PluginConfiguration<T>) => Out): Out\n\n\t\t/**\n\t\t * Get the current configuration value.\n\t\t */\n\t\tget(): Promise<T>\n\n\t\t/**\n\t\t * Update configuration with partial values.\n\t\t * @param partial - The partial configuration to merge\n\t\t * @param target - Where to store the setting: 'global' (user settings) or 'workspace' (default)\n\t\t */\n\t\tupdate(partial: Partial<T>, target?: PluginConfigurationTarget): Promise<void>\n\n\t\t/**\n\t\t * Delete a configuration key.\n\t\t * @param key - The key to delete\n\t\t * @param target - Where to delete from: 'global' (user settings) or 'workspace' (default)\n\t\t */\n\t\tdelete(key: keyof T, target?: PluginConfigurationTarget): Promise<void>\n\t}\n",
+              "exitCode": 0
+            },
+            "status": "done"
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_01QxCLJbC5NcdbnHVc14Acu9"
+        }
+      ],
+      "messageId": 5
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:24:16.018Z",
+        "inputTokens": 6,
+        "outputTokens": 107,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 28951,
+        "cacheReadInputTokens": 16368,
+        "cacheCreationInputTokens": 12577
+      },
+      "content": [
+        {
+          "id": "toolu_vrtx_01Hj6iMFQHB9s79NzBJBYuMW",
+          "name": "Bash",
+          "type": "tool_use",
+          "input": {
+            "cmd": "amp plugins show-docs 2>&1 | grep -A 30 \"session.start\\|SessionStart\\|SessionEvent\""
+          },
+          "complete": true,
+          "finalTime": 1778498656016,
+          "startTime": 1778498655219,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 6
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": {
+              "output": "\tamp.on('session.start', async (event, ctx) => {\n\t\tawait ctx.ui.notify(`Thread ${event.thread.id} started.`)\n\t})\n}\n```\n\nCode in the exported function runs when the plugin loads. Use `session.start` only for work that should run when Amp starts a specific thread session.\n\nAfter changing a plugin, open the command palette and run `plugins: reload`.\n\n## Documentation\n\n- Plugin guide and worked examples: <https://ampcode.com/manual#plugins>\n- Full `@ampcode/plugin` type reference and a complete kitchen-sink example: <https://ampcode.com/manual/plugin-api>\n\nPlugins execute code, so only use plugins from people and workspaces you trust.\n\n## Acknowledgment\n\nAmp's plugin API is inspired by [pi's extension API](https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/extensions.md), created by Mario Zechner.\ndeclare module '@ampcode/plugin' {\n\t/**\n\t * # Amp Plugin API\n\t *\n\t * Plugins are JavaScript/TypeScript programs that extend & customize Amp.\n\t * They are long-lived processes that may run for multiple threads concurrently.\n\t *\n\t * Plugins live in `.amp/plugins/` (project) or `~/.config/amp/plugins/` (system) and are executed using Bun.\n\t *\n\t * A plugin exports a default function that receives a {@link PluginAPI} instance. For example:\n\t *\n\t * ```ts\n\t * import type { PluginAPI } from '@ampcode/plugin'\n\t *\n\t * export default function (amp: PluginAPI) {\n\t *   amp.logger.log('Plugin initialized')\n\t * }\n--\n\t * Event payload for session.start event.\n\t * Fired when Amp starts a thread session, such as when the user sends the first\n\t * message in a new thread or opens/switches to an existing thread.\n\t */\n\texport interface SessionStartEvent {\n\t\t/** The thread that started running */\n\t\tthread: { id: ThreadID }\n\t}\n\n\t/**\n\t * A tool call.\n\t */\n\texport interface ToolCall {\n\t\t/** Unique identifier for this tool use (e.g., \"toolu_xxx\") */\n\t\ttoolUseID: string\n\n\t\t/** Name of the tool that will be executed */\n\t\ttool: string\n\n\t\t/** Input arguments that will be passed to the tool */\n\t\tinput: Record<string, unknown>\n\t}\n\n\t/**\n\t * Event payload for tool.call event.\n\t * This is a request that expects a response from the handler.\n\t */\n\texport interface ToolCallEvent extends ToolCall {\n\t\t/** The active thread for this tool invocation */\n\t\tthread: { id: ThreadID }\n\t}\n\n\t/**\n\t * Result returned from a tool.call handler.\n\t * Determines how the tool execution should proceed.\n--\n\t\t'session.start': SessionStartEvent\n\t\t'tool.call': ToolCallEvent\n\t\t'tool.result': ToolResultEvent\n\t\t'agent.start': AgentStartEvent\n\t\t'agent.end': AgentEndEvent\n\t}\n\n\t/**\n\t * Map of request event names to their result types.\n\t * These events expect a response from the handler.\n\t */\n\texport interface PluginRequestResultMap {\n\t\t'tool.call': ToolCallResult\n\t\t'tool.result': ToolResultResult\n\t\t'agent.start': AgentStartResult\n\t\t'agent.end': AgentEndResult\n\t}\n\n\t/**\n\t * Context shared by all plugin event handlers.\n\t */\n\texport interface PluginEventContextBase {\n\t\t/** Scoped logger for plugin output. Log messages are appended to the handler's trace span events. */\n\t\tlogger: PluginLogger\n\n\t\t/** Bun's shell API for executing commands */\n\t\t$: ShellFunction\n\n\t\t/** Platform UI capabilities */\n\t\tui: PluginUI\n\n",
+              "exitCode": 0
+            },
+            "status": "done"
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_01Hj6iMFQHB9s79NzBJBYuMW"
+        }
+      ],
+      "messageId": 7
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:24:22.325Z",
+        "inputTokens": 6,
+        "outputTokens": 286,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 30420,
+        "cacheReadInputTokens": 28945,
+        "cacheCreationInputTokens": 1469
+      },
+      "content": [
+        {
+          "type": "thinking",
+          "provider": "anthropic",
+          "thinking": " So I need to hook into the `session.start` event in the amp plugin and fire it when there's a thread id available. The key insight is to manage session tracking in-memory within the plugin itself rather than persisting seen thread ids to the filesystem. When a new thread id shows up, I'll reset the tracking state by clearing the seen ids and current id. Let me look at the hooks.go file to see how this integrates with the rest of the system.",
+          "finalTime": 1778498662230,
+          "signature": "EpcFClsIDRACGAIqQK2ut1Q/6Yt/WIMtlSMlQd8WkoOHZdq7ik1p+GK0/Hn0rSVUgMvUR96xHTnDeHaLaWl8bU9AVXSV0KwV0Foh5r4yD2NsYXVkZS1vcHVzLTQtNzgAEgzbs2+X1CLcUHx9d/4aDH3Ih3ACUEcdrKbLBCIw262SOie1smJ7uL5ozkkbMP7kD7M65CfLQF0PB18vZ4xenbANRu+tqhsU1gOjlF2GKukDpQSbBosQAhm4RxWhKzL5dp6IO4CvR0DIUu3EGYYTUFtSLFSM4CFzoNmwtQ9aQMnaA/utjDkIkUKmEtKeuW3Q/6b2PA9MJJU71jGK4C0LjzAEaqI5KeN9EEcACidP2S1ypJOsBYiWvvuW+0soYpzde5ZO1ITbs6V8187eqIOKuvBbKeyTdOGPWQKEirju4UDYIPKoqsEyWK1VDp3+Qf2ZQavuiYZPhnhHZ4OX2C58Hqrd4JC1E7m0VhkWkIq24EIxut2AqTLxfNf6XlVVv24G2rdCaVncLRCILtmMy2wwqWoq1Uf+ZbcqKAFs9e/MJ/rkQFjgNl9+LuJ+oxPyF411dIOG7SJepoWZE8ODKl1odty6k/AxS1w9nN90ePvu8VUZT1mBS8zplnVJOP7x3xAJol+K5Vqr8AgQejQNwhtXbz4tZs8m9+82tfb2/RmgXKtsr1QmmZ6jiSVK7mfoV205udFsLzFdeBmvAlS8yGvswuz5twIaZorMe8PHOZyX6//CP2TfXa2fB/NYFKJjfR/d1TBhaaM6F1ItuSI00f7c0yWs8XXzaSG6+ReBmEodM5BZ+5w3XreaKmOM1B+jN3Ux1e8UiYuoumFDSBsWNLEKVfc2tKmBezWMv9WG9KW6HJj12wD2W0Sc66VZGAE=",
+          "startTime": 1778498658006,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_013whyfWAbktu58K39Kqi2fJ",
+          "name": "Read",
+          "type": "tool_use",
+          "input": {
+            "path": "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go"
+          },
+          "complete": true,
+          "finalTime": 1778498662319,
+          "startTime": 1778498662237,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 8
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": {
+              "content": "1: package amp\n2: \n3: import (\n4: \t\"encoding/json\"\n5: \t\"fmt\"\n6: \t\"os\"\n7: \t\"path/filepath\"\n8: \t\"regexp\"\n9: \t\"strings\"\n10: \t\"time\"\n11: \n12: \t\"github.com/entireio/external-agents/agents/entire-agent-amp/internal/protocol\"\n13: )\n14: \n15: const (\n16: \tpluginDir         = \".amp/plugins\"\n17: \tpluginFile        = \".amp/plugins/entire.ts\"\n18: \ttranscriptSubdir  = \"amp\"\n19: \tseenSessionSubdir = \"amp/seen\"\n20: )\n21: \n22: type ampHookPayload struct {\n23: \tType          string            `json:\"type\"`\n24: \tCwd           string            `json:\"cwd,omitempty\"`\n25: \tThreadID      string            `json:\"thread_id,omitempty\"`\n26: \tMessageID     string            `json:\"message_id,omitempty\"`\n27: \tMessage       string            `json:\"message,omitempty\"`\n28: \tStatus        string            `json:\"status,omitempty\"`\n29: \tMessages      []json.RawMessage `json:\"messages,omitempty\"`\n30: \tModifiedFiles []string          `json:\"modified_files,omitempty\"`\n31: }\n32: \n33: func (a *Agent) ParseHook(hookName string, input []byte) (*protocol.EventJSON, error) {\n34: \tif len(input) == 0 {\n35: \t\treturn nil, nil\n36: \t}\n37: \n38: \tvar payload ampHookPayload\n39: \tif err := json.Unmarshal(input, &payload); err != nil {\n40: \t\treturn nil, fmt.Errorf(\"parse hook payload: %w\", err)\n41: \t}\n42: \n43: \tsessionID := payload.ThreadID\n44: \tif sessionID == \"\" {\n45: \t\treturn nil, nil\n46: \t}\n47: \n48: \tnow := time.Now().UTC().Format(time.RFC3339)\n49: \tsessionRef := transcriptPath(sessionID)\n50: \n51: \tswitch hookName {\n52: \tcase \"session.start\":\n53: \t\tmarkSessionSeen(sessionID)\n54: \t\treturn &protocol.EventJSON{\n55: \t\t\tType:       1,\n56: \t\t\tSessionID:  sessionID,\n57: \t\t\tSessionRef: sessionRef,\n58: \t\t\tTimestamp:  now,\n59: \t\t}, nil\n60: \n61: \tcase \"agent.start\":\n62: \t\tif !sessionSeen(sessionID) {\n63: \t\t\tmarkSessionSeen(sessionID)\n64: \t\t}\n65: \t\tif err := appendTranscriptEntry(sessionRef, ampTranscriptEntry{\n66: \t\t\tType:     \"agent.start\",\n67: \t\t\tThreadID: sessionID,\n68: \t\t\tMessage:  payload.Message,\n69: \t\t}); err != nil {\n70: \t\t\treturn nil, err\n71: \t\t}\n72: \t\treturn &protocol.EventJSON{\n73: \t\t\tType:       2,\n74: \t\t\tSessionID:  sessionID,\n75: \t\t\tSessionRef: sessionRef,\n76: \t\t\tPrompt:     payload.Message,\n77: \t\t\tTimestamp:  now,\n78: \t\t}, nil\n79: \n80: \tcase \"agent.end\":\n81: \t\tif err := appendTranscriptEntry(sessionRef, ampTranscriptEntry{\n82: \t\t\tType:     \"agent.end\",\n83: \t\t\tThreadID: sessionID,\n84: \t\t\tMessage:  payload.Message,\n85: \t\t}); err != nil {\n86: \t\t\treturn nil, err\n87: \t\t}\n88: \t\treturn &protocol.EventJSON{\n89: \t\t\tType:       3,\n90: \t\t\tSessionID:  sessionID,\n91: \t\t\tSessionRef: sessionRef,\n92: \t\t\tTimestamp:  now,\n93: \t\t}, nil\n94: \n95: \tdefault:\n96: \t\treturn nil, nil\n97: \t}\n98: }\n99: \n100: func (a *Agent) InstallHooks(_ bool, force bool) (int, error) {\n101: \troot := protocol.RepoRoot()\n102: \tif !force && a.AreHooksInstalled() {\n103: \t\treturn 0, nil\n104: \t}\n105: \n106: \tdir := filepath.Join(root, pluginDir)\n107: \tif err := os.MkdirAll(dir, 0o750); err != nil {\n108: \t\treturn 0, fmt.Errorf(\"create plugin dir: %w\", err)\n109: \t}\n110: \n111: \tpath := filepath.Join(root, pluginFile)\n112: \tif err := os.WriteFile(path, []byte(generatePlugin()), 0o600); err != nil {\n113: \t\treturn 0, fmt.Errorf(\"write plugin: %w\", err)\n114: \t}\n115: \n116: \treturn 3, nil\n117: }\n118: \n119: func (a *Agent) UninstallHooks() error {\n120: \troot := protocol.RepoRoot()\n121: \tpath := filepath.Join(root, pluginFile)\n122: \tif err := os.Remove(path); err != nil && !os.IsNotExist(err) {\n123: \t\treturn err\n124: \t}\n125: \t// If the plugin directory is empty after removing the plugin file, remove it as well.\n126: \tdir := filepath.Join(root, pluginDir)\n127: \tif entries, err := os.ReadDir(dir); err == nil && len(entries) == 0 {\n128: \t\t_ = os.Remove(dir)\n129: \t}\n130: \t// If .amp is empty after removing the plugin directory, remove it as well.\n131: \tampDir := filepath.Join(root, \".amp\")\n132: \tif entries, err := os.ReadDir(ampDir); err == nil && len(entries) == 0 {\n133: \t\t_ = os.Remove(ampDir)\n134: \t}\n135: \n136: \t// Clean up any seen session markers, but leave transcripts in place since they may be useful to the user and are small in size.\n137: \tsessionsDir := protocol.DefaultSessionDir(root)\n138: \tseenDir := filepath.Join(sessionsDir, seenSessionSubdir)\n139: \tif entries, err := os.ReadDir(seenDir); err == nil {\n140: \t\tfor _, entry := range entries {\n141: \t\t\t_ = os.Remove(filepath.Join(seenDir, entry.Name()))\n142: \t\t}\n143: \t}\n144: \n145: \treturn nil\n146: }\n147: \n148: func (a *Agent) AreHooksInstalled() bool {\n149: \troot := protocol.RepoRoot()\n150: \tdata, err := os.ReadFile(filepath.Join(root, pluginFile))\n151: \treturn err == nil && strings.Contains(string(data), \"entire-agent-amp\")\n152: }\n153: \n154: func generatePlugin() string {\n155: \treturn `import type { AgentEndEvent, AgentStartEvent, PluginAPI, ThreadMessage } from \"@ampcode/plugin\";\n156: import { execFile } from \"node:child_process\";\n157: \n158: // entire-agent-amp: project-local Entire integration for Amp.\n159: export default function (amp: PluginAPI) {\n160:   const seenThreads = new Set<string>();\n161: \n162:   function fireHook(hookName: string, data: Record<string, unknown>): Promise<void> {\n163:     return new Promise((resolve) => {\n164:       let body: string;\n165:       try {\n166:         body = JSON.stringify(data);\n167:       } catch (err) {\n168:         amp.logger.log(\"entire hook stringify failed\", hookName, err);\n169:         resolve();\n170:         return;\n171:       }\n172: \n173:       // NOTE: we await this from request handlers (agent.start/agent.end) on\n174:       // purpose — Entire's transcript ordering depends on hooks completing in\n175:       // sequence. Do not convert to fire-and-forget.\n176:       const child = execFile(\n177:         \"entire\",\n178:         [\"hooks\", \"amp\", hookName],\n179:         { timeout: 10_000, windowsHide: true, maxBuffer: Infinity },\n180:         (err, _stdout, stderr) => {\n181:           if (err) {\n182:             amp.logger.log(\"entire hook failed\", hookName, err.message, stderr);\n183:           }\n184:           resolve();\n185:         },\n186:       );\n187:       child.stdin?.end(body);\n188:     });\n189:   }\n190: \n191:   function modifiedFiles(messages: ThreadMessage[]): string[] {\n192:     const files = new Set<string>();\n193:     for (const item of amp.helpers.toolCallsInMessages(messages)) {\n194:       for (const event of [item.call, item.result]) {\n195:         const modified = amp.helpers.filesModifiedByToolCall(event);\n196:         if (!modified) continue;\n197:         for (const file of modified) files.add(amp.helpers.filePathFromURI(file));\n198:       }\n199:     }\n200:     return Array.from(files).sort();\n201:   }\n202: \n203:   amp.on(\"agent.start\", async (event: AgentStartEvent): Promise<void> => {\n204:     if (!seenThreads.has(event.thread.id)) {\n205:       seenThreads.add(event.thread.id);\n206:       await fireHook(\"session.start\", {\n207:         type: \"session.start\",\n208:         cwd: process.cwd(),\n209:         thread_id: event.thread.id,\n210:       });\n211:     }\n212: \n213:     await fireHook(\"agent.start\", {\n214:       type: \"agent.start\",\n215:       cwd: process.cwd(),\n216:       thread_id: event.thread.id,\n217:       message_id: String(event.id),\n218:       message: event.message,\n219:     });\n220:   });\n221: \n222:   amp.on(\"agent.end\", async (event: AgentEndEvent): Promise<void> => {\n223:     await fireHook(\"agent.end\", {\n224:       type: \"agent.end\",\n225:       cwd: process.cwd(),\n226:       thread_id: event.thread.id,\n227:       message_id: String(event.id),\n228:       message: event.message,\n229:       status: event.status,\n230:       messages: event.messages,\n231:       modified_files: modifiedFiles(event.messages),\n232:     });\n233:   });\n234: }\n235: `\n236: }\n237: \n238: func transcriptPath(sessionID string) string {\n239: \treturn filepath.Join(protocol.DefaultSessionDir(protocol.RepoRoot()), transcriptSubdir, safeSessionID(sessionID)+\".jsonl\")\n240: }\n241: \n242: func seenPath(sessionID string) string {\n243: \treturn filepath.Join(protocol.DefaultSessionDir(protocol.RepoRoot()), seenSessionSubdir, safeSessionID(sessionID))\n244: }\n245: \n246: func sessionSeen(sessionID string) bool {\n247: \t_, err := os.Stat(seenPath(sessionID))\n248: \treturn err == nil\n249: }\n250: \n251: func markSessionSeen(sessionID string) {\n252: \tpath := seenPath(sessionID)\n253: \tif err := os.MkdirAll(filepath.Dir(path), 0o750); err == nil {\n254: \t\t_ = os.WriteFile(path, []byte(sessionID), 0o600)\n255: \t}\n256: }\n257: \n258: func safeSessionID(sessionID string) string {\n259: \tif sessionID == \"\" {\n260: \t\treturn \"unknown\"\n261: \t}\n262: \tre := regexp.MustCompile(`[^A-Za-z0-9_.-]+`)\n263: \treturn re.ReplaceAllString(sessionID, \"_\")\n264: }",
+              "absolutePath": "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go",
+              "discoveredGuidanceFiles": [
+                {
+                  "uri": "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/AGENT.md",
+                  "content": "# Amp — External Agent Research\n\n## Verdict: COMPATIBLE\n\nAmp has a TypeScript plugin system with lifecycle events for `agent.start` and `agent.end`. Project plugins require launching Amp with `PLUGINS=all`. The public plugin API does not expose a stable native transcript file path, so the integration captures event/message payloads into `.entire/tmp/amp/*.jsonl` and implements transcript analysis from that cache.\n\n## Static Checks\n| Check | Result | Notes |\n|-------|--------|-------|\n| Binary present | PASS | `amp` found locally |\n| Help available | PASS | `amp --help` |\n| Version info | PASS | `amp --version` |\n| Hook keywords | PASS | Plugin docs provide lifecycle events |\n| Session keywords | PASS | `threads continue`, `threads export` |\n| Config directory | PASS | `~/.config/amp` documented |\n| Documentation | PASS | https://ampcode.com/manual/plugins.md and https://ampcode.com/manual/plugin-api.md |\n\n## Binary\n- Name: `amp`\n- Install: Amp CLI from AmpCode distribution.\n- Plugin loading: run `PLUGINS=all amp ...`.\n\n## Hook Mechanism\n- Config file: `.amp/plugins/entire.ts`\n- Config format: TypeScript plugin running on Amp's Bun-provided runtime.\n- Hook registration: plugin default export receives `PluginAPI`, registers handlers with `amp.on(event, handler)`.\n- Hook names and protocol mapping:\n\n| Native Hook Name | When It Fires | Protocol Event Type |\n|------------------|---------------|---------------------|\n| synthetic `session.start` | before first `agent.start` per thread | 1 = SessionStart |\n| `agent.start` | user submits a prompt | 2 = TurnStart |\n| `agent.end` | agent finishes a turn | 3 = TurnEnd |\n\n`session.start` from Amp itself does not always include `thread.id`, so the plugin does not rely on it for session identity.\n\n## Session Management\n- Session ID source: Amp `thread.id`.\n- Session directory: `.entire/tmp/amp/`.\n- Session file format: JSONL cache written by the external agent binary from hook payloads.\n- Resume mechanism: `PLUGINS=all amp threads continue <thread-id>`.\n\n## Transcript\n- Bootstrap location: `.entire/tmp/amp/<safe-thread-id>.jsonl` before preparation.\n- Authoritative location: the same `session_ref` after `prepare-transcript` overwrites it with `amp threads export <thread-id>` JSON.\n- Authoritative format: `AmpThread` JSON modeled in `internal/amp/types.go`.\n- User prompt field: `AmpThread.messages[].content[]` text blocks on `role: \"user\"` messages.\n- Modified files field: `ThreadToolRun.trackFiles`, tool input path fields, and common tool result path fields.\n- Token usage field: `ThreadMessage.usage` on exported assistant messages.\n\n## Protocol Mapping\n| Subcommand | Native Concept | Implementation Notes | Feasibility |\n|-----------|----------------|----------------------|-------------|\n| `info` | static metadata | Return name `amp`, capabilities | Required |\n| `detect` | `amp` binary | Check `command -v amp` | Required |\n| `get-session-id` | Amp thread ID | Read from hook input | Required |\n| `get-session-dir` | `.entire/tmp` | Standard Entire temp dir | Required |\n| `resolve-session-file` | `.entire/tmp/<id>.json` | Standard path resolution | Required |\n| `read-session` | exported Amp JSON | Build AgentSession from authoritative `AmpThread` JSON | Required |\n| `write-session` | exported Amp JSON | Write native data to session ref | Required |\n| `read-transcript` | exported Amp JSON | Return raw bytes after validating `AmpThread` JSON | Required |\n| `chunk-transcript` | raw bytes | Base64 chunking via protocol JSON encoding | Required |\n| `reassemble-transcript` | chunks | Reassemble raw bytes | Required |\n| `format-resume-command` | Amp thread continue | `PLUGINS=all amp threads continue <id>` | Required |\n| `parse-hook` | plugin event JSON | Map hook payloads to protocol events | Hooks |\n| `install-hooks` | project plugin | Write `.amp/plugins/entire.ts` | Hooks |\n| `uninstall-hooks` | project plugin | Remove `.amp/plugins/entire.ts` | Hooks |\n| `are-hooks-installed` | project plugin | Check plugin marker | Hooks |\n| `get-transcript-position` | exported Amp JSON | Return byte length | Transcript analyzer |\n| `extract-modified-files` | exported Amp JSON | Parse `AmpThread` tool inputs/results | Transcript analyzer |\n| `extract-prompts` | exported Amp JSON | Parse user text blocks from `AmpThread.messages` | Transcript analyzer |\n| `extract-summary` | exported Amp JSON | Parse last assistant text block from `AmpThread.messages` | Transcript analyzer |\n| `prepare-transcript` | `amp threads export` | Export server-side thread JSON into `session_ref` | Transcript preparer |\n| `compact-transcript` | exported Amp JSON | Emit Entire compact JSONL from `AmpThread` | Compact transcript |\n\n## Selected Capabilities\n| Capability | Declared | Justification |\n|-----------|----------|---------------|\n| hooks | true | Amp plugins expose lifecycle events |\n| transcript_analyzer | true | Exported Amp JSON contains prompts, tool calls/results, and assistant messages |\n| compact_transcript | true | Exported Amp JSON maps to Entire compact transcript format |\n| transcript_preparer | true | Exports Amp thread JSON into the session ref |\n| token_calculator | true | Exported Amp JSON contains `ThreadMessage.usage` |\n| text_generator | false | Amp CLI is used for agent execution, not summary generation |\n| hook_response_writer | false | Not needed for lifecycle hooks |\n| subagent_aware_extractor | false | No documented subagent transcript tree |\n\n## Gaps & Limitations\n- Amp must be launched with `PLUGINS=all` for hooks to fire.\n- Transcript data starts as plugin-captured JSONL only for bootstrap thread ID discovery and is later prepared into authoritative `amp threads export` JSON.\n- `session.start` cannot be trusted for thread identity because `thread.id` is optional there.\n\n## E2E Test Prerequisites\n- Entire CLI binary: `entire` from PATH or `E2E_ENTIRE_BIN`.\n- Agent CLI binary: `amp`.\n- Non-interactive prompt command: `PLUGINS=all amp --dangerously-allow-all --no-notifications --no-ide -x '<prompt>'`.\n- Interactive mode: `PLUGINS=all amp`.\n- Expected prompt pattern: `>`.\n- Timeout multiplier: 1.5.\n",
+                  "lineCount": 100
+                }
+              ]
+            },
+            "status": "done",
+            "progress": {},
+            "trackFiles": [
+              "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go"
+            ]
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_013whyfWAbktu58K39Kqi2fJ"
+        }
+      ],
+      "messageId": 9
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:25:15.701Z",
+        "inputTokens": 6,
+        "outputTokens": 3910,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 37345,
+        "cacheReadInputTokens": 30414,
+        "cacheCreationInputTokens": 6925
+      },
+      "content": [
+        {
+          "type": "thinking",
+          "provider": "anthropic",
+          "thinking": " Looking at the AGENT.md note, I see that `session.start` from Amp doesn't reliably include `thread.id`, so I can't depend on it for session identity. The approach here is to listen for `session.start` events but only trigger the hook and update tracking when `thread.id` is actually present. When I detect a new thread id that differs from what I'm currently tracking, I'll reset the seen ids and current state.\n\nI'm realizing the plugin already maintains an in-memory `seenThreads` Set, while the filesystem tracking lives in hooks.go on the Go side. The user wants me to consolidate this—add a `session.start` listener in the plugin to manage session tracking entirely in memory, then remove the filesystem-based deduplication from hooks.go since the plugin will handle it. When `session.start` fires with a non-empty thread id that's different from the current one, I'll clear the seen set and update the current thread id before checking if this session should fire the hook. Setting up the tracking logic...\n\nSo the session.start listener only fires when thread.id exists, and agent.start acts as a fallback—if trackSession returns true (meaning it's a new thread), then session.start hook fires. This way, if session.start never fired due to missing thread.id, agent.start catches it. And I need to clean up the Go side by removing the dead sessionSeen/markSessionSeen calls from hooks.go since the plugin now handles all the deduplication in-memory.\n\nI should also remove the seenSessionSubdir constant, the sessionSeen and markSessionSeen functions, the seenPath helper, and the seen directory cleanup from UninstallHooks. Then I'll write the updated plugin code for both the standalone file and the embedded version in hooks.go.",
+          "finalTime": 1778498696534,
+          "signature": "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",
+          "startTime": 1778498665922,
+          "blockState": "complete"
+        },
+        {
+          "text": "Now I understand the full picture. Let me update the plugin to add a `session.start` listener with in-memory tracking, and remove the filesystem-based seen tracking from the Go side.",
+          "type": "text",
+          "finalTime": 1778498696794,
+          "startTime": 1778498696542,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_012HgwrfqPr4qEngmzFBy95y",
+          "name": "create_file",
+          "type": "tool_use",
+          "input": {
+            "path": "/Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts",
+            "content": "import type {\n  AgentEndEvent,\n  AgentStartEvent,\n  PluginAPI,\n  SessionStartEvent,\n  ThreadMessage,\n} from \"@ampcode/plugin\";\nimport { execFile } from \"node:child_process\";\n\n// entire-agent-amp: project-local Entire integration for Amp.\nexport default function (amp: PluginAPI) {\n  // In-memory session tracking. Replaces the filesystem-based dedupe in the\n  // external agent binary so thread state lives only inside the plugin.\n  let currentThreadId: string | null = null;\n  const seenThreads = new Set<string>();\n\n  // trackThread records the given thread id and returns true when it is the\n  // first time we have seen it for the current session. When a different\n  // thread id is discovered we clear all tracking — the user has switched to\n  // a new thread, so prior dedupe state no longer applies.\n  function trackThread(threadId: string): boolean {\n    if (threadId !== currentThreadId) {\n      seenThreads.clear();\n      currentThreadId = threadId;\n    }\n    if (seenThreads.has(threadId)) return false;\n    seenThreads.add(threadId);\n    return true;\n  }\n\n  function fireHook(hookName: string, data: Record<string, unknown>): Promise<void> {\n    return new Promise((resolve) => {\n      let body: string;\n      try {\n        body = JSON.stringify(data);\n      } catch (err) {\n        amp.logger.log(\"entire hook stringify failed\", hookName, err);\n        resolve();\n        return;\n      }\n\n      // NOTE: we await this from request handlers (agent.start/agent.end) on\n      // purpose — Entire's transcript ordering depends on hooks completing in\n      // sequence. Do not convert to fire-and-forget.\n      const child = execFile(\n        \"entire\",\n        [\"hooks\", \"amp\", hookName],\n        { timeout: 10_000, windowsHide: true, maxBuffer: Infinity },\n        (err, _stdout, stderr) => {\n          if (err) {\n            amp.logger.log(\"entire hook failed\", hookName, err.message, stderr);\n          }\n          resolve();\n        },\n      );\n      child.stdin?.end(body);\n    });\n  }\n\n  function modifiedFiles(messages: ThreadMessage[]): string[] {\n    const files = new Set<string>();\n    for (const item of amp.helpers.toolCallsInMessages(messages)) {\n      for (const event of [item.call, item.result]) {\n        const modified = amp.helpers.filesModifiedByToolCall(event);\n        if (!modified) continue;\n        for (const file of modified) files.add(amp.helpers.filePathFromURI(file));\n      }\n    }\n    return Array.from(files).sort();\n  }\n\n  amp.on(\"session.start\", async (event: SessionStartEvent): Promise<void> => {\n    const threadId = event.thread?.id;\n    if (!threadId) return;\n    if (!trackThread(threadId)) return;\n    await fireHook(\"session.start\", {\n      type: \"session.start\",\n      cwd: process.cwd(),\n      thread_id: threadId,\n    });\n  });\n\n  amp.on(\"agent.start\", async (event: AgentStartEvent): Promise<void> => {\n    // Amp's session.start does not always include a thread id, so agent.start\n    // is the fallback point for firing the synthetic session.start hook.\n    if (trackThread(event.thread.id)) {\n      await fireHook(\"session.start\", {\n        type: \"session.start\",\n        cwd: process.cwd(),\n        thread_id: event.thread.id,\n      });\n    }\n\n    await fireHook(\"agent.start\", {\n      type: \"agent.start\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n    });\n  });\n\n  amp.on(\"agent.end\", async (event: AgentEndEvent): Promise<void> => {\n    await fireHook(\"agent.end\", {\n      type: \"agent.end\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n      status: event.status,\n      messages: event.messages,\n      modified_files: modifiedFiles(event.messages),\n    });\n  });\n}\n"
+          },
+          "complete": true,
+          "finalTime": 1778498715675,
+          "startTime": 1778498696794,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 10,
+      "originalToolUseInput": {
+        "toolu_vrtx_012HgwrfqPr4qEngmzFBy95y": {
+          "path": "/Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts",
+          "content": "import type {\n  AgentEndEvent,\n  AgentStartEvent,\n  PluginAPI,\n  SessionStartEvent,\n  ThreadMessage,\n} from \"@ampcode/plugin\";\nimport { execFile } from \"node:child_process\";\n\n// entire-agent-amp: project-local Entire integration for Amp.\nexport default function (amp: PluginAPI) {\n  // In-memory session tracking. Replaces the filesystem-based dedupe in the\n  // external agent binary so thread state lives only inside the plugin.\n  let currentThreadId: string | null = null;\n  const seenThreads = new Set<string>();\n\n  // trackThread records the given thread id and returns true when it is the\n  // first time we have seen it for the current session. When a different\n  // thread id is discovered we clear all tracking — the user has switched to\n  // a new thread, so prior dedupe state no longer applies.\n  function trackThread(threadId: string): boolean {\n    if (threadId !== currentThreadId) {\n      seenThreads.clear();\n      currentThreadId = threadId;\n    }\n    if (seenThreads.has(threadId)) return false;\n    seenThreads.add(threadId);\n    return true;\n  }\n\n  function fireHook(hookName: string, data: Record<string, unknown>): Promise<void> {\n    return new Promise((resolve) => {\n      let body: string;\n      try {\n        body = JSON.stringify(data);\n      } catch (err) {\n        amp.logger.log(\"entire hook stringify failed\", hookName, err);\n        resolve();\n        return;\n      }\n\n      // NOTE: we await this from request handlers (agent.start/agent.end) on\n      // purpose — Entire's transcript ordering depends on hooks completing in\n      // sequence. Do not convert to fire-and-forget.\n      const child = execFile(\n        \"entire\",\n        [\"hooks\", \"amp\", hookName],\n        { timeout: 10_000, windowsHide: true, maxBuffer: Infinity },\n        (err, _stdout, stderr) => {\n          if (err) {\n            amp.logger.log(\"entire hook failed\", hookName, err.message, stderr);\n          }\n          resolve();\n        },\n      );\n      child.stdin?.end(body);\n    });\n  }\n\n  function modifiedFiles(messages: ThreadMessage[]): string[] {\n    const files = new Set<string>();\n    for (const item of amp.helpers.toolCallsInMessages(messages)) {\n      for (const event of [item.call, item.result]) {\n        const modified = amp.helpers.filesModifiedByToolCall(event);\n        if (!modified) continue;\n        for (const file of modified) files.add(amp.helpers.filePathFromURI(file));\n      }\n    }\n    return Array.from(files).sort();\n  }\n\n  amp.on(\"session.start\", async (event: SessionStartEvent): Promise<void> => {\n    const threadId = event.thread?.id;\n    if (!threadId) return;\n    if (!trackThread(threadId)) return;\n    await fireHook(\"session.start\", {\n      type: \"session.start\",\n      cwd: process.cwd(),\n      thread_id: threadId,\n    });\n  });\n\n  amp.on(\"agent.start\", async (event: AgentStartEvent): Promise<void> => {\n    // Amp's session.start does not always include a thread id, so agent.start\n    // is the fallback point for firing the synthetic session.start hook.\n    if (trackThread(event.thread.id)) {\n      await fireHook(\"session.start\", {\n        type: \"session.start\",\n        cwd: process.cwd(),\n        thread_id: event.thread.id,\n      });\n    }\n\n    await fireHook(\"agent.start\", {\n      type: \"agent.start\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n    });\n  });\n\n  amp.on(\"agent.end\", async (event: AgentEndEvent): Promise<void> => {\n    await fireHook(\"agent.end\", {\n      type: \"agent.end\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n      status: event.status,\n      messages: event.messages,\n      modified_files: modifiedFiles(event.messages),\n    });\n  });\n}\n"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": "Successfully created file /Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts",
+            "status": "done",
+            "trackFiles": [
+              "file:///Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts"
+            ]
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_012HgwrfqPr4qEngmzFBy95y"
+        }
+      ],
+      "messageId": 11
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:25:52.017Z",
+        "inputTokens": 6,
+        "outputTokens": 3477,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 41290,
+        "cacheReadInputTokens": 37339,
+        "cacheCreationInputTokens": 3945
+      },
+      "content": [
+        {
+          "text": "Now update [hooks.go](file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go) to embed the same plugin source and remove the filesystem-based seen tracking.",
+          "type": "text",
+          "finalTime": 1778498721960,
+          "startTime": 1778498719952,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_01JsLCv7Qe2wS4FWpNcoWr35",
+          "name": "create_file",
+          "type": "tool_use",
+          "input": {
+            "path": "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go",
+            "content": "package amp\n\nimport (\n\t\"encoding/json\"\n\t\"fmt\"\n\t\"os\"\n\t\"path/filepath\"\n\t\"regexp\"\n\t\"strings\"\n\t\"time\"\n\n\t\"github.com/entireio/external-agents/agents/entire-agent-amp/internal/protocol\"\n)\n\nconst (\n\tpluginDir        = \".amp/plugins\"\n\tpluginFile       = \".amp/plugins/entire.ts\"\n\ttranscriptSubdir = \"amp\"\n)\n\ntype ampHookPayload struct {\n\tType          string            `json:\"type\"`\n\tCwd           string            `json:\"cwd,omitempty\"`\n\tThreadID      string            `json:\"thread_id,omitempty\"`\n\tMessageID     string            `json:\"message_id,omitempty\"`\n\tMessage       string            `json:\"message,omitempty\"`\n\tStatus        string            `json:\"status,omitempty\"`\n\tMessages      []json.RawMessage `json:\"messages,omitempty\"`\n\tModifiedFiles []string          `json:\"modified_files,omitempty\"`\n}\n\nfunc (a *Agent) ParseHook(hookName string, input []byte) (*protocol.EventJSON, error) {\n\tif len(input) == 0 {\n\t\treturn nil, nil\n\t}\n\n\tvar payload ampHookPayload\n\tif err := json.Unmarshal(input, &payload); err != nil {\n\t\treturn nil, fmt.Errorf(\"parse hook payload: %w\", err)\n\t}\n\n\tsessionID := payload.ThreadID\n\tif sessionID == \"\" {\n\t\treturn nil, nil\n\t}\n\n\tnow := time.Now().UTC().Format(time.RFC3339)\n\tsessionRef := transcriptPath(sessionID)\n\n\tswitch hookName {\n\tcase \"session.start\":\n\t\treturn &protocol.EventJSON{\n\t\t\tType:       1,\n\t\t\tSessionID:  sessionID,\n\t\t\tSessionRef: sessionRef,\n\t\t\tTimestamp:  now,\n\t\t}, nil\n\n\tcase \"agent.start\":\n\t\tif err := appendTranscriptEntry(sessionRef, ampTranscriptEntry{\n\t\t\tType:     \"agent.start\",\n\t\t\tThreadID: sessionID,\n\t\t\tMessage:  payload.Message,\n\t\t}); err != nil {\n\t\t\treturn nil, err\n\t\t}\n\t\treturn &protocol.EventJSON{\n\t\t\tType:       2,\n\t\t\tSessionID:  sessionID,\n\t\t\tSessionRef: sessionRef,\n\t\t\tPrompt:     payload.Message,\n\t\t\tTimestamp:  now,\n\t\t}, nil\n\n\tcase \"agent.end\":\n\t\tif err := appendTranscriptEntry(sessionRef, ampTranscriptEntry{\n\t\t\tType:     \"agent.end\",\n\t\t\tThreadID: sessionID,\n\t\t\tMessage:  payload.Message,\n\t\t}); err != nil {\n\t\t\treturn nil, err\n\t\t}\n\t\treturn &protocol.EventJSON{\n\t\t\tType:       3,\n\t\t\tSessionID:  sessionID,\n\t\t\tSessionRef: sessionRef,\n\t\t\tTimestamp:  now,\n\t\t}, nil\n\n\tdefault:\n\t\treturn nil, nil\n\t}\n}\n\nfunc (a *Agent) InstallHooks(_ bool, force bool) (int, error) {\n\troot := protocol.RepoRoot()\n\tif !force && a.AreHooksInstalled() {\n\t\treturn 0, nil\n\t}\n\n\tdir := filepath.Join(root, pluginDir)\n\tif err := os.MkdirAll(dir, 0o750); err != nil {\n\t\treturn 0, fmt.Errorf(\"create plugin dir: %w\", err)\n\t}\n\n\tpath := filepath.Join(root, pluginFile)\n\tif err := os.WriteFile(path, []byte(generatePlugin()), 0o600); err != nil {\n\t\treturn 0, fmt.Errorf(\"write plugin: %w\", err)\n\t}\n\n\treturn 3, nil\n}\n\nfunc (a *Agent) UninstallHooks() error {\n\troot := protocol.RepoRoot()\n\tpath := filepath.Join(root, pluginFile)\n\tif err := os.Remove(path); err != nil && !os.IsNotExist(err) {\n\t\treturn err\n\t}\n\t// If the plugin directory is empty after removing the plugin file, remove it as well.\n\tdir := filepath.Join(root, pluginDir)\n\tif entries, err := os.ReadDir(dir); err == nil && len(entries) == 0 {\n\t\t_ = os.Remove(dir)\n\t}\n\t// If .amp is empty after removing the plugin directory, remove it as well.\n\tampDir := filepath.Join(root, \".amp\")\n\tif entries, err := os.ReadDir(ampDir); err == nil && len(entries) == 0 {\n\t\t_ = os.Remove(ampDir)\n\t}\n\n\treturn nil\n}\n\nfunc (a *Agent) AreHooksInstalled() bool {\n\troot := protocol.RepoRoot()\n\tdata, err := os.ReadFile(filepath.Join(root, pluginFile))\n\treturn err == nil && strings.Contains(string(data), \"entire-agent-amp\")\n}\n\nfunc generatePlugin() string {\n\treturn `import type {\n  AgentEndEvent,\n  AgentStartEvent,\n  PluginAPI,\n  SessionStartEvent,\n  ThreadMessage,\n} from \"@ampcode/plugin\";\nimport { execFile } from \"node:child_process\";\n\n// entire-agent-amp: project-local Entire integration for Amp.\nexport default function (amp: PluginAPI) {\n  // In-memory session tracking. Replaces the filesystem-based dedupe in the\n  // external agent binary so thread state lives only inside the plugin.\n  let currentThreadId: string | null = null;\n  const seenThreads = new Set<string>();\n\n  // trackThread records the given thread id and returns true when it is the\n  // first time we have seen it for the current session. When a different\n  // thread id is discovered we clear all tracking — the user has switched to\n  // a new thread, so prior dedupe state no longer applies.\n  function trackThread(threadId: string): boolean {\n    if (threadId !== currentThreadId) {\n      seenThreads.clear();\n      currentThreadId = threadId;\n    }\n    if (seenThreads.has(threadId)) return false;\n    seenThreads.add(threadId);\n    return true;\n  }\n\n  function fireHook(hookName: string, data: Record<string, unknown>): Promise<void> {\n    return new Promise((resolve) => {\n      let body: string;\n      try {\n        body = JSON.stringify(data);\n      } catch (err) {\n        amp.logger.log(\"entire hook stringify failed\", hookName, err);\n        resolve();\n        return;\n      }\n\n      // NOTE: we await this from request handlers (agent.start/agent.end) on\n      // purpose — Entire's transcript ordering depends on hooks completing in\n      // sequence. Do not convert to fire-and-forget.\n      const child = execFile(\n        \"entire\",\n        [\"hooks\", \"amp\", hookName],\n        { timeout: 10_000, windowsHide: true, maxBuffer: Infinity },\n        (err, _stdout, stderr) => {\n          if (err) {\n            amp.logger.log(\"entire hook failed\", hookName, err.message, stderr);\n          }\n          resolve();\n        },\n      );\n      child.stdin?.end(body);\n    });\n  }\n\n  function modifiedFiles(messages: ThreadMessage[]): string[] {\n    const files = new Set<string>();\n    for (const item of amp.helpers.toolCallsInMessages(messages)) {\n      for (const event of [item.call, item.result]) {\n        const modified = amp.helpers.filesModifiedByToolCall(event);\n        if (!modified) continue;\n        for (const file of modified) files.add(amp.helpers.filePathFromURI(file));\n      }\n    }\n    return Array.from(files).sort();\n  }\n\n  amp.on(\"session.start\", async (event: SessionStartEvent): Promise<void> => {\n    const threadId = event.thread?.id;\n    if (!threadId) return;\n    if (!trackThread(threadId)) return;\n    await fireHook(\"session.start\", {\n      type: \"session.start\",\n      cwd: process.cwd(),\n      thread_id: threadId,\n    });\n  });\n\n  amp.on(\"agent.start\", async (event: AgentStartEvent): Promise<void> => {\n    // Amp's session.start does not always include a thread id, so agent.start\n    // is the fallback point for firing the synthetic session.start hook.\n    if (trackThread(event.thread.id)) {\n      await fireHook(\"session.start\", {\n        type: \"session.start\",\n        cwd: process.cwd(),\n        thread_id: event.thread.id,\n      });\n    }\n\n    await fireHook(\"agent.start\", {\n      type: \"agent.start\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n    });\n  });\n\n  amp.on(\"agent.end\", async (event: AgentEndEvent): Promise<void> => {\n    await fireHook(\"agent.end\", {\n      type: \"agent.end\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n      status: event.status,\n      messages: event.messages,\n      modified_files: modifiedFiles(event.messages),\n    });\n  });\n}\n`\n}\n\nfunc transcriptPath(sessionID string) string {\n\treturn filepath.Join(protocol.DefaultSessionDir(protocol.RepoRoot()), transcriptSubdir, safeSessionID(sessionID)+\".jsonl\")\n}\n\nfunc safeSessionID(sessionID string) string {\n\tif sessionID == \"\" {\n\t\treturn \"unknown\"\n\t}\n\tre := regexp.MustCompile(`[^A-Za-z0-9_.-]+`)\n\treturn re.ReplaceAllString(sessionID, \"_\")\n}\n"
+          },
+          "complete": true,
+          "finalTime": 1778498751998,
+          "startTime": 1778498721961,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 12,
+      "originalToolUseInput": {
+        "toolu_vrtx_01JsLCv7Qe2wS4FWpNcoWr35": {
+          "path": "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go",
+          "content": "package amp\n\nimport (\n\t\"encoding/json\"\n\t\"fmt\"\n\t\"os\"\n\t\"path/filepath\"\n\t\"regexp\"\n\t\"strings\"\n\t\"time\"\n\n\t\"github.com/entireio/external-agents/agents/entire-agent-amp/internal/protocol\"\n)\n\nconst (\n\tpluginDir        = \".amp/plugins\"\n\tpluginFile       = \".amp/plugins/entire.ts\"\n\ttranscriptSubdir = \"amp\"\n)\n\ntype ampHookPayload struct {\n\tType          string            `json:\"type\"`\n\tCwd           string            `json:\"cwd,omitempty\"`\n\tThreadID      string            `json:\"thread_id,omitempty\"`\n\tMessageID     string            `json:\"message_id,omitempty\"`\n\tMessage       string            `json:\"message,omitempty\"`\n\tStatus        string            `json:\"status,omitempty\"`\n\tMessages      []json.RawMessage `json:\"messages,omitempty\"`\n\tModifiedFiles []string          `json:\"modified_files,omitempty\"`\n}\n\nfunc (a *Agent) ParseHook(hookName string, input []byte) (*protocol.EventJSON, error) {\n\tif len(input) == 0 {\n\t\treturn nil, nil\n\t}\n\n\tvar payload ampHookPayload\n\tif err := json.Unmarshal(input, &payload); err != nil {\n\t\treturn nil, fmt.Errorf(\"parse hook payload: %w\", err)\n\t}\n\n\tsessionID := payload.ThreadID\n\tif sessionID == \"\" {\n\t\treturn nil, nil\n\t}\n\n\tnow := time.Now().UTC().Format(time.RFC3339)\n\tsessionRef := transcriptPath(sessionID)\n\n\tswitch hookName {\n\tcase \"session.start\":\n\t\treturn &protocol.EventJSON{\n\t\t\tType:       1,\n\t\t\tSessionID:  sessionID,\n\t\t\tSessionRef: sessionRef,\n\t\t\tTimestamp:  now,\n\t\t}, nil\n\n\tcase \"agent.start\":\n\t\tif err := appendTranscriptEntry(sessionRef, ampTranscriptEntry{\n\t\t\tType:     \"agent.start\",\n\t\t\tThreadID: sessionID,\n\t\t\tMessage:  payload.Message,\n\t\t}); err != nil {\n\t\t\treturn nil, err\n\t\t}\n\t\treturn &protocol.EventJSON{\n\t\t\tType:       2,\n\t\t\tSessionID:  sessionID,\n\t\t\tSessionRef: sessionRef,\n\t\t\tPrompt:     payload.Message,\n\t\t\tTimestamp:  now,\n\t\t}, nil\n\n\tcase \"agent.end\":\n\t\tif err := appendTranscriptEntry(sessionRef, ampTranscriptEntry{\n\t\t\tType:     \"agent.end\",\n\t\t\tThreadID: sessionID,\n\t\t\tMessage:  payload.Message,\n\t\t}); err != nil {\n\t\t\treturn nil, err\n\t\t}\n\t\treturn &protocol.EventJSON{\n\t\t\tType:       3,\n\t\t\tSessionID:  sessionID,\n\t\t\tSessionRef: sessionRef,\n\t\t\tTimestamp:  now,\n\t\t}, nil\n\n\tdefault:\n\t\treturn nil, nil\n\t}\n}\n\nfunc (a *Agent) InstallHooks(_ bool, force bool) (int, error) {\n\troot := protocol.RepoRoot()\n\tif !force && a.AreHooksInstalled() {\n\t\treturn 0, nil\n\t}\n\n\tdir := filepath.Join(root, pluginDir)\n\tif err := os.MkdirAll(dir, 0o750); err != nil {\n\t\treturn 0, fmt.Errorf(\"create plugin dir: %w\", err)\n\t}\n\n\tpath := filepath.Join(root, pluginFile)\n\tif err := os.WriteFile(path, []byte(generatePlugin()), 0o600); err != nil {\n\t\treturn 0, fmt.Errorf(\"write plugin: %w\", err)\n\t}\n\n\treturn 3, nil\n}\n\nfunc (a *Agent) UninstallHooks() error {\n\troot := protocol.RepoRoot()\n\tpath := filepath.Join(root, pluginFile)\n\tif err := os.Remove(path); err != nil && !os.IsNotExist(err) {\n\t\treturn err\n\t}\n\t// If the plugin directory is empty after removing the plugin file, remove it as well.\n\tdir := filepath.Join(root, pluginDir)\n\tif entries, err := os.ReadDir(dir); err == nil && len(entries) == 0 {\n\t\t_ = os.Remove(dir)\n\t}\n\t// If .amp is empty after removing the plugin directory, remove it as well.\n\tampDir := filepath.Join(root, \".amp\")\n\tif entries, err := os.ReadDir(ampDir); err == nil && len(entries) == 0 {\n\t\t_ = os.Remove(ampDir)\n\t}\n\n\treturn nil\n}\n\nfunc (a *Agent) AreHooksInstalled() bool {\n\troot := protocol.RepoRoot()\n\tdata, err := os.ReadFile(filepath.Join(root, pluginFile))\n\treturn err == nil && strings.Contains(string(data), \"entire-agent-amp\")\n}\n\nfunc generatePlugin() string {\n\treturn `import type {\n  AgentEndEvent,\n  AgentStartEvent,\n  PluginAPI,\n  SessionStartEvent,\n  ThreadMessage,\n} from \"@ampcode/plugin\";\nimport { execFile } from \"node:child_process\";\n\n// entire-agent-amp: project-local Entire integration for Amp.\nexport default function (amp: PluginAPI) {\n  // In-memory session tracking. Replaces the filesystem-based dedupe in the\n  // external agent binary so thread state lives only inside the plugin.\n  let currentThreadId: string | null = null;\n  const seenThreads = new Set<string>();\n\n  // trackThread records the given thread id and returns true when it is the\n  // first time we have seen it for the current session. When a different\n  // thread id is discovered we clear all tracking — the user has switched to\n  // a new thread, so prior dedupe state no longer applies.\n  function trackThread(threadId: string): boolean {\n    if (threadId !== currentThreadId) {\n      seenThreads.clear();\n      currentThreadId = threadId;\n    }\n    if (seenThreads.has(threadId)) return false;\n    seenThreads.add(threadId);\n    return true;\n  }\n\n  function fireHook(hookName: string, data: Record<string, unknown>): Promise<void> {\n    return new Promise((resolve) => {\n      let body: string;\n      try {\n        body = JSON.stringify(data);\n      } catch (err) {\n        amp.logger.log(\"entire hook stringify failed\", hookName, err);\n        resolve();\n        return;\n      }\n\n      // NOTE: we await this from request handlers (agent.start/agent.end) on\n      // purpose — Entire's transcript ordering depends on hooks completing in\n      // sequence. Do not convert to fire-and-forget.\n      const child = execFile(\n        \"entire\",\n        [\"hooks\", \"amp\", hookName],\n        { timeout: 10_000, windowsHide: true, maxBuffer: Infinity },\n        (err, _stdout, stderr) => {\n          if (err) {\n            amp.logger.log(\"entire hook failed\", hookName, err.message, stderr);\n          }\n          resolve();\n        },\n      );\n      child.stdin?.end(body);\n    });\n  }\n\n  function modifiedFiles(messages: ThreadMessage[]): string[] {\n    const files = new Set<string>();\n    for (const item of amp.helpers.toolCallsInMessages(messages)) {\n      for (const event of [item.call, item.result]) {\n        const modified = amp.helpers.filesModifiedByToolCall(event);\n        if (!modified) continue;\n        for (const file of modified) files.add(amp.helpers.filePathFromURI(file));\n      }\n    }\n    return Array.from(files).sort();\n  }\n\n  amp.on(\"session.start\", async (event: SessionStartEvent): Promise<void> => {\n    const threadId = event.thread?.id;\n    if (!threadId) return;\n    if (!trackThread(threadId)) return;\n    await fireHook(\"session.start\", {\n      type: \"session.start\",\n      cwd: process.cwd(),\n      thread_id: threadId,\n    });\n  });\n\n  amp.on(\"agent.start\", async (event: AgentStartEvent): Promise<void> => {\n    // Amp's session.start does not always include a thread id, so agent.start\n    // is the fallback point for firing the synthetic session.start hook.\n    if (trackThread(event.thread.id)) {\n      await fireHook(\"session.start\", {\n        type: \"session.start\",\n        cwd: process.cwd(),\n        thread_id: event.thread.id,\n      });\n    }\n\n    await fireHook(\"agent.start\", {\n      type: \"agent.start\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n    });\n  });\n\n  amp.on(\"agent.end\", async (event: AgentEndEvent): Promise<void> => {\n    await fireHook(\"agent.end\", {\n      type: \"agent.end\",\n      cwd: process.cwd(),\n      thread_id: event.thread.id,\n      message_id: String(event.id),\n      message: event.message,\n      status: event.status,\n      messages: event.messages,\n      modified_files: modifiedFiles(event.messages),\n    });\n  });\n}\n`\n}\n\nfunc transcriptPath(sessionID string) string {\n\treturn filepath.Join(protocol.DefaultSessionDir(protocol.RepoRoot()), transcriptSubdir, safeSessionID(sessionID)+\".jsonl\")\n}\n\nfunc safeSessionID(sessionID string) string {\n\tif sessionID == \"\" {\n\t\treturn \"unknown\"\n\t}\n\tre := regexp.MustCompile(`[^A-Za-z0-9_.-]+`)\n\treturn re.ReplaceAllString(sessionID, \"_\")\n}\n"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": "Successfully created file /Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go",
+            "status": "done",
+            "trackFiles": [
+              "file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go"
+            ]
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_01JsLCv7Qe2wS4FWpNcoWr35"
+        }
+      ],
+      "messageId": 13
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:25:57.088Z",
+        "inputTokens": 6,
+        "outputTokens": 265,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 44860,
+        "cacheReadInputTokens": 41284,
+        "cacheCreationInputTokens": 3570
+      },
+      "content": [
+        {
+          "text": "Now let me check for any references to the removed functions/constants and verify it builds.",
+          "type": "text",
+          "finalTime": 1778498754153,
+          "startTime": 1778498753418,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_011JfzH5Z7gL4Q62hSGXbu6d",
+          "name": "Bash",
+          "type": "tool_use",
+          "input": {
+            "cmd": "rg -n 'sessionSeen|markSessionSeen|seenPath|seenSessionSubdir' /Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp"
+          },
+          "complete": true,
+          "finalTime": 1778498756719,
+          "startTime": 1778498754154,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_01VC51yy5ze6wmDiF2gJ7FQ2",
+          "name": "Bash",
+          "type": "tool_use",
+          "input": {
+            "cmd": "go build ./...",
+            "cwd": "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp"
+          },
+          "complete": true,
+          "finalTime": 1778498757086,
+          "startTime": 1778498756730,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 14
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": {
+              "output": "",
+              "exitCode": 1
+            },
+            "status": "done"
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_011JfzH5Z7gL4Q62hSGXbu6d"
+        },
+        {
+          "run": {
+            "result": {
+              "output": "",
+              "exitCode": 0
+            },
+            "status": "done"
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_01VC51yy5ze6wmDiF2gJ7FQ2"
+        }
+      ],
+      "messageId": 15
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "tool_use"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:26:00.910Z",
+        "inputTokens": 6,
+        "outputTokens": 158,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 45251,
+        "cacheReadInputTokens": 44854,
+        "cacheCreationInputTokens": 391
+      },
+      "content": [
+        {
+          "text": "Build succeeded and no stale references. Let me also run the tests.",
+          "type": "text",
+          "finalTime": 1778498760233,
+          "startTime": 1778498759849,
+          "blockState": "complete"
+        },
+        {
+          "id": "toolu_vrtx_01MNJM4oW158wU8mvDaTsFia",
+          "name": "Bash",
+          "type": "tool_use",
+          "input": {
+            "cmd": "go test ./... 2>&1 | tail -50",
+            "cwd": "/Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp"
+          },
+          "complete": true,
+          "finalTime": 1778498760910,
+          "startTime": 1778498760233,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 16
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "run": {
+            "result": {
+              "output": "?   \tgithub.com/entireio/external-agents/agents/entire-agent-amp/cmd/entire-agent-amp\t[no test files]\nok  \tgithub.com/entireio/external-agents/agents/entire-agent-amp/internal/amp\t0.848s\nok  \tgithub.com/entireio/external-agents/agents/entire-agent-amp/internal/protocol\t(cached)\n",
+              "exitCode": 0
+            },
+            "status": "done"
+          },
+          "type": "tool_result",
+          "toolUseID": "toolu_vrtx_01MNJM4oW158wU8mvDaTsFia"
+        }
+      ],
+      "messageId": 17
+    },
+    {
+      "role": "assistant",
+      "state": {
+        "type": "complete",
+        "stopReason": "end_turn"
+      },
+      "usage": {
+        "model": "claude-opus-4-7",
+        "timestamp": "2026-05-11T11:26:09.566Z",
+        "inputTokens": 6,
+        "outputTokens": 436,
+        "maxInputTokens": 300000,
+        "totalInputTokens": 45596,
+        "cacheReadInputTokens": 45245,
+        "cacheCreationInputTokens": 345
+      },
+      "content": [
+        {
+          "text": "All tests pass. Summary of changes:\n\n**[.amp/plugins/entire.ts](file:///Users/savekirk/dev/ai/entire/external-agents/.amp/plugins/entire.ts)** and the embedded copy in **[hooks.go](file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go#L154-L259)**:\n- Added `session.start` listener that fires the hook only when `event.thread.id` is non-empty.\n- Added `trackThread()` helper managing in-memory `currentThreadId` + `seenThreads`. When a new thread id is discovered, it clears `seenThreads` and resets `currentThreadId`.\n- `agent.start` still calls `trackThread()` as a fallback (Amp's `session.start` may omit `thread.id`).\n\n**[hooks.go](file:///Users/savekirk/dev/ai/entire/external-agents/agents/entire-agent-amp/internal/amp/hooks.go)** Go side:\n- Removed `seenSessionSubdir`, `sessionSeen`, `markSessionSeen`, `seenPath`, and the seen-dir cleanup in `UninstallHooks` — dedupe lives entirely in the plugin now.",
+          "type": "text",
+          "finalTime": 1778498769551,
+          "startTime": 1778498763436,
+          "blockState": "complete"
+        }
+      ],
+      "messageId": 18,
+      "turnElapsedMs": 124067
+    }
+  ],
+  "agentMode": "smart",
+  "nextMessageId": 19,
+  "activatedSkills": [
+    {
+      "name": "building-plugins"
+    },
+    {
+      "name": "entire-external-agent"
+    }
+  ],
+  "creatorUserID": "user_01K8NY44JFP7XCNX45C6JCAJMC",
+  "updatedAt": "2026-05-11T11:24:05.496Z"
+}
